@@ -16,12 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Myaudio.Application\Myaudio.Application.csproj" />
     <ProjectReference Include="..\Persistance.Base\Persistance.Base.csproj" />
+    <ProjectReference Include="..\UserService.Application\UserService.Application.csproj" />
   </ItemGroup>
 
 </Project>

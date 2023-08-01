@@ -4,12 +4,19 @@ using VkNet.Model.RequestParams;
 using VkNet.Model;
 using VkNet;
 using VkNet.AudioBypassService.Extensions;
+using UserService.Application.CQRS.Command.PostAuthorization;
+using UserService.Application.Interface;
+using UserService.Application.Config;
 
 namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
 {
     public class VkApiService : IVkApiService
     {
-       
+        readonly IVkaApi _vkaApi;
+       public VkApiService(IVkaApi vkaApi)
+        {
+            _vkaApi = vkaApi;
+        }
 
         async Task<List<VkNet.Model.Attachments.Audio>> IVkApiService.GetAudiosAsync(int count)
         {
@@ -17,12 +24,12 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
             services.AddAudioBypass();
 
             var api = new VkApi(services);
+            Configs congigs = new Configs();
 
-            api.Authorize(new ApiAuthParams // в дальнейшем переделать на авторизацию по токену
+
+            api.Authorize(new ApiAuthParams
             {
-                ApplicationId = 7822351,
-                Login = "89244452428",
-                Password = "Salov1999"
+                AccessToken = "1"
             });
 
             var audios = await api.Audio.GetAsync(new AudioGetParams

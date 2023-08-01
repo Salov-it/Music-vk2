@@ -725,6 +725,7 @@
           "MediatR": "12.0.1",
           "Microsoft.EntityFrameworkCore": "6.0.18",
           "Myaudio.Domain": "1.0.0",
+          "UserService.Application": "1.0.0",
           "VkNet": "1.72.0",
           "VkNet.AudioBypassService": "1.7.4"
         },
@@ -743,6 +744,22 @@
         },
         "runtime": {
           "bin/placeholder/Myaudio.Domain.dll": {}
+        }
+      },
+      "UserService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "MediatR": "12.0.1",
+          "VkNet": "1.72.0",
+          "VkNet.AudioBypassService": "1.7.4"
+        },
+        "compile": {
+          "bin/placeholder/UserService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserService.Application.dll": {}
         }
       }
     }
@@ -1701,6 +1718,11 @@
       "type": "project",
       "path": "../Myaudio.Domain/Myaudio.Domain.csproj",
       "msbuildProject": "../Myaudio.Domain/Myaudio.Domain.csproj"
+    },
+    "UserService.Application/1.0.0": {
+      "type": "project",
+      "path": "../UserService.Application/UserService.Application.csproj",
+      "msbuildProject": "../UserService.Application/UserService.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
