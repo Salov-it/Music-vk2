@@ -5,8 +5,7 @@ using Myaudio.Application;
 using Persistance.Base;
 using Myaudio.Application.CQRS.Command.GetMyaudioDowload;
 using Myaudio.Application.CQRS.Command.GetMyaudio;
-using MyRecommendationsService.Application;
-using MyRecommendationsService.Application.Interface;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,10 +27,7 @@ builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.IVkApiService, VkA
 builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.ILooadin, LoadingMp3>();
 
 //builder.Services.MyRecom
-builder.Services.AddApplicationMyRecom();
-builder.Services.AddScoped<IAudiosRepository, MyaudiosRepositoryMyRecom>();
-builder.Services.AddScoped<IVkApiServiceMyRecom, VkApiServiceMyRecom>();
-builder.Services.AddScoped<ILooadinMyRecom, LoadingMp3MyRecom>();
+
 
 // Add services to the container.
 

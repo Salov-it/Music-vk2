@@ -31,7 +31,7 @@
           }
         }
       },
-      "MediatR/12.1.1": {
+      "MediatR/12.0.1": {
         "type": "package",
         "dependencies": {
           "MediatR.Contracts": "[2.0.1, 3.0.0)",
@@ -744,34 +744,6 @@
         "runtime": {
           "bin/placeholder/Myaudio.Domain.dll": {}
         }
-      },
-      "MyRecommendationsService.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper": "12.0.1",
-          "MediatR": "12.1.1",
-          "Microsoft.EntityFrameworkCore": "6.0.18",
-          "MyRecommendationsService.Domain": "1.0.0",
-          "VkNet": "1.72.0",
-          "VkNet.AudioBypassService": "1.7.4"
-        },
-        "compile": {
-          "bin/placeholder/MyRecommendationsService.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyRecommendationsService.Application.dll": {}
-        }
-      },
-      "MyRecommendationsService.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MyRecommendationsService.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyRecommendationsService.Domain.dll": {}
-        }
       }
     }
   },
@@ -839,10 +811,10 @@
         "lib/uap10.0/HtmlAgilityPack.pri"
       ]
     },
-    "MediatR/12.1.1": {
-      "sha512": "1AbwzzeS6gn4NdcO6A9LfKS5TXXgAiUQM3J18dREHa7O7TrdCXJ5dNFeRBpzPZY7UWl5Kby+n9pWrPJe3SDiMA==",
+    "MediatR/12.0.1": {
+      "sha512": "vfxplMielft+g5jxGO31xjjQpI6yqe4r2YGt0Q8x23phwbpJNmUQGY+cCNNFMKKViXRM67ajUlAiwirMeuJWTQ==",
       "type": "package",
-      "path": "mediatr/12.1.1",
+      "path": "mediatr/12.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -851,7 +823,7 @@
         "lib/net6.0/MediatR.xml",
         "lib/netstandard2.0/MediatR.dll",
         "lib/netstandard2.0/MediatR.xml",
-        "mediatr.12.1.1.nupkg.sha512",
+        "mediatr.12.0.1.nupkg.sha512",
         "mediatr.nuspec"
       ]
     },
@@ -1729,24 +1701,12 @@
       "type": "project",
       "path": "../Myaudio.Domain/Myaudio.Domain.csproj",
       "msbuildProject": "../Myaudio.Domain/Myaudio.Domain.csproj"
-    },
-    "MyRecommendationsService.Application/1.0.0": {
-      "type": "project",
-      "path": "../MyRecommendationsService.Application/MyRecommendationsService.Application.csproj",
-      "msbuildProject": "../MyRecommendationsService.Application/MyRecommendationsService.Application.csproj"
-    },
-    "MyRecommendationsService.Domain/1.0.0": {
-      "type": "project",
-      "path": "../MyRecommendationsService.Domain/MyRecommendationsService.Domain.csproj",
-      "msbuildProject": "../MyRecommendationsService.Domain/MyRecommendationsService.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.18",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.18",
-      "MyRecommendationsService.Application >= 1.0.0",
-      "MyRecommendationsService.Domain >= 1.0.0",
       "Myaudio.Application >= 1.0.0",
       "Myaudio.Domain >= 1.0.0"
     ]
@@ -1757,11 +1717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Githab\\Music-vk\\src\\Music-vk\\Persistance.Base\\Persistance.Base.csproj",
+      "projectUniqueName": "D:\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
       "projectName": "Persistance.Base",
-      "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Persistance.Base\\Persistance.Base.csproj",
+      "projectPath": "D:\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
       "packagesPath": "C:\\Users\\Васюринская\\.nuget\\packages\\",
-      "outputPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Persistance.Base\\obj\\",
+      "outputPath": "D:\\Githab\\Music-vk2\\src\\Persistance.Base\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Васюринская\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1778,17 +1738,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Application\\Myaudio.Application.csproj": {
-              "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Application\\Myaudio.Application.csproj"
+            "D:\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+              "projectPath": "D:\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
             },
-            "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\Myaudio.Domain.csproj": {
-              "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\Myaudio.Domain.csproj"
-            },
-            "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj": {
-              "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj"
-            },
-            "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {
-              "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj"
+            "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+              "projectPath": "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
             }
           }
         }

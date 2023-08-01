@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XcQoChlTBVx/vK4bfyFf6Yiy9Ie+x76YcyhZXHG8pMVhPLRgCpFpfCwts+7sZB/o2NL9SoPocTGaMpHXb8px0w==",
+  "dgSpecHash": "Nlvoln8PnkWS0E9wLlS7FE/hPQtDcVf4F6GbQPj8zYy3DiRZYd3LYZHKjQ4vg3WP6jTwg8JQ0MzHfnfScU6H9g==",
   "success": true,
-  "projectFilePath": "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj",
+  "projectFilePath": "D:\\Githab\\Music-vk2\\src\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Васюринская\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Васюринская\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",

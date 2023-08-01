@@ -14,8 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Myaudio.Application\Myaudio.Application.csproj" />
     <ProjectReference Include="..\Myaudio.Domain\Myaudio.Domain.csproj" />
-    <ProjectReference Include="..\MyRecommendationsService.Application\MyRecommendationsService.Application.csproj" />
-    <ProjectReference Include="..\MyRecommendationsService.Domain\MyRecommendationsService.Domain.csproj" />
   </ItemGroup>
 
 </Project>

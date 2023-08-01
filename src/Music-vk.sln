@@ -5,25 +5,19 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Myaudio.services", "Myaudio.services", "{4142896E-EBA4-43A5-B45F-4E034F0F24C7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyRecommendations", "MyRecommendations", "{AB00FF43-BF3D-4E38-854E-26185C74EF6A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserService", "UserService", "{CCE86736-924C-4203-8F83-611BAFBF8206}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApiService", "WebApiService", "{0953D809-0A2A-4141-9D6B-E33084AC0658}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myaudio.Application", "Myaudio.Application\Myaudio.Application.csproj", "{8EAFAFFB-ECFF-41AE-AA17-63B654AAD6D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRecommendationsService.Application", "MyRecommendationsService.Application\MyRecommendationsService.Application.csproj", "{CEB58805-7E03-4D47-B368-4FE54F562691}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myaudio.Domain", "Myaudio.Domain\Myaudio.Domain.csproj", "{7C892636-5219-4A6E-B172-7D86F82272C3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRecommendationsService.Domain", "MyRecommendationsService.Domain\MyRecommendationsService.Domain.csproj", "{51199614-5B6E-494F-AD8D-FD1AC7B890AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistanceService", "PersistanceService", "{2BA29737-0A0F-430A-A96A-353241E486D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance.Base", "Persistance.Base\Persistance.Base.csproj", "{9DFFC5ED-3605-4FFC-8769-2711999F459C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistance.Base", "Persistance.Base\Persistance.Base.csproj", "{9DFFC5ED-3605-4FFC-8769-2711999F459C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{209D423C-9C87-40DD-ACFC-C57031803CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{209D423C-9C87-40DD-ACFC-C57031803CFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,18 +29,10 @@ Global
 		{8EAFAFFB-ECFF-41AE-AA17-63B654AAD6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EAFAFFB-ECFF-41AE-AA17-63B654AAD6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EAFAFFB-ECFF-41AE-AA17-63B654AAD6D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CEB58805-7E03-4D47-B368-4FE54F562691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEB58805-7E03-4D47-B368-4FE54F562691}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEB58805-7E03-4D47-B368-4FE54F562691}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEB58805-7E03-4D47-B368-4FE54F562691}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C892636-5219-4A6E-B172-7D86F82272C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C892636-5219-4A6E-B172-7D86F82272C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C892636-5219-4A6E-B172-7D86F82272C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C892636-5219-4A6E-B172-7D86F82272C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51199614-5B6E-494F-AD8D-FD1AC7B890AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51199614-5B6E-494F-AD8D-FD1AC7B890AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51199614-5B6E-494F-AD8D-FD1AC7B890AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51199614-5B6E-494F-AD8D-FD1AC7B890AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9DFFC5ED-3605-4FFC-8769-2711999F459C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9DFFC5ED-3605-4FFC-8769-2711999F459C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFFC5ED-3605-4FFC-8769-2711999F459C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,9 +47,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8EAFAFFB-ECFF-41AE-AA17-63B654AAD6D6} = {4142896E-EBA4-43A5-B45F-4E034F0F24C7}
-		{CEB58805-7E03-4D47-B368-4FE54F562691} = {AB00FF43-BF3D-4E38-854E-26185C74EF6A}
 		{7C892636-5219-4A6E-B172-7D86F82272C3} = {4142896E-EBA4-43A5-B45F-4E034F0F24C7}
-		{51199614-5B6E-494F-AD8D-FD1AC7B890AB} = {AB00FF43-BF3D-4E38-854E-26185C74EF6A}
 		{9DFFC5ED-3605-4FFC-8769-2711999F459C} = {2BA29737-0A0F-430A-A96A-353241E486D1}
 		{209D423C-9C87-40DD-ACFC-C57031803CFF} = {0953D809-0A2A-4141-9D6B-E33084AC0658}
 	EndGlobalSection

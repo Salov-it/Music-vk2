@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Application\\Myaudio.Application.csproj": {}
+    "D:\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {}
   },
   "projects": {
-    "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Application\\Myaudio.Application.csproj": {
+    "D:\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Application\\Myaudio.Application.csproj",
+        "projectUniqueName": "D:\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
         "projectName": "Myaudio.Application",
-        "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Application\\Myaudio.Application.csproj",
+        "projectPath": "D:\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
         "packagesPath": "C:\\Users\\Васюринская\\.nuget\\packages\\",
-        "outputPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Application\\obj\\",
+        "outputPath": "D:\\Githab\\Music-vk2\\src\\Myaudio.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Васюринская\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\Myaudio.Domain.csproj": {
-                "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\Myaudio.Domain.csproj"
+              "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+                "projectPath": "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+    "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "projectUniqueName": "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
         "projectName": "Myaudio.Domain",
-        "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "projectPath": "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
         "packagesPath": "C:\\Users\\Васюринская\\.nuget\\packages\\",
-        "outputPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\Myaudio.Domain\\obj\\",
+        "outputPath": "D:\\Githab\\Music-vk2\\src\\Myaudio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Васюринская\\AppData\\Roaming\\NuGet\\NuGet.Config",

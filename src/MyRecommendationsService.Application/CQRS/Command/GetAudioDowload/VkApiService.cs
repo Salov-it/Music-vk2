@@ -3,12 +3,14 @@ using MyRecommendationsService.Application.Interface;
 using VkNet.Model;
 using VkNet;
 using VkNet.AudioBypassService.Extensions;
+using VkNet.Model.Attachments;
 
 namespace MyRecommendationsService.Application.CQRS.Command.GetAudioDowload
 {
-    public class VkApiService : IVkApiServiceMyRecom
+    public class VkApiServiceMyRecom : IVkApiServiceMyRecom
     {
-        async Task<List<VkNet.Model.Attachments.Audio>> IVkApiServiceMyRecom.GetAudiosAsync(uint count, long? UserId)
+
+        Task<List<VkNet.Model.Attachments.Audio>> IVkApiServiceMyRecom.GetAudiosAsync(decimal count, decimal UserId)
         {
             var services = new ServiceCollection();
             services.AddAudioBypass();
@@ -22,7 +24,7 @@ namespace MyRecommendationsService.Application.CQRS.Command.GetAudioDowload
                 Password = "Salov1999"
             });
 
-            var audios = api.Audio.GetRecommendations(count: count,userId: UserId);
+            var audios = api.Audio.GetRecommendations(decimal count, decimal UserId);
 
             List<VkNet.Model.Attachments.Audio> audios1 = audios.ToList();
 

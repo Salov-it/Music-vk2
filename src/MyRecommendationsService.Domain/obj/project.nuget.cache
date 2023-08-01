@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Y8yfHKp2SxvlIUW/Bx43TfovMZJvtRTO4LTebogFOYTQ0TSYmoo/JaSrDnxt6qadKjICafKRenfRQUz9xw3Gw==",
+  "dgSpecHash": "d/+O9Zf/nMfnFPxQwuMEnzfAX+nNTLp4EY8Tzrr4KDwTgcGcNrSliu5zpCkGsOMlV6DeL1RYE3GVY1o1stzn+A==",
   "success": true,
-  "projectFilePath": "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj",
+  "projectFilePath": "D:\\Githab\\Music-vk2\\src\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

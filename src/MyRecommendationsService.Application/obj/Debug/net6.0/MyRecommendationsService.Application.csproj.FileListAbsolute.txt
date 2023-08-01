@@ -1,0 +1,5 @@
+D:\Githab\Music-vk2\src\MyRecommendationsService.Application\obj\Debug\net6.0\MyRecommendationsService.Application.csproj.AssemblyReference.cache
+D:\Githab\Music-vk2\src\MyRecommendationsService.Application\obj\Debug\net6.0\MyRecommendationsService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Githab\Music-vk2\src\MyRecommendationsService.Application\obj\Debug\net6.0\MyRecommendationsService.Application.AssemblyInfoInputs.cache
+D:\Githab\Music-vk2\src\MyRecommendationsService.Application\obj\Debug\net6.0\MyRecommendationsService.Application.AssemblyInfo.cs
+D:\Githab\Music-vk2\src\MyRecommendationsService.Application\obj\Debug\net6.0\MyRecommendationsService.Application.csproj.CoreCompileInputs.cache

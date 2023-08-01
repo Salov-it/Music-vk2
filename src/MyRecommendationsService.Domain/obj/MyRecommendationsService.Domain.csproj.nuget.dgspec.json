@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {}
+    "D:\\Githab\\Music-vk2\\src\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {
+    "D:\\Githab\\Music-vk2\\src\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj",
+        "projectUniqueName": "D:\\Githab\\Music-vk2\\src\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj",
         "projectName": "MyRecommendationsService.Domain",
-        "projectPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj",
+        "projectPath": "D:\\Githab\\Music-vk2\\src\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj",
         "packagesPath": "C:\\Users\\Васюринская\\.nuget\\packages\\",
-        "outputPath": "D:\\Githab\\Music-vk\\src\\Music-vk\\MyRecommendationsService.Domain\\obj\\",
+        "outputPath": "D:\\Githab\\Music-vk2\\src\\MyRecommendationsService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Васюринская\\AppData\\Roaming\\NuGet\\NuGet.Config",

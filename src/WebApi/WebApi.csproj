@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Myaudio.Application\Myaudio.Application.csproj" />
-    <ProjectReference Include="..\MyRecommendationsService.Application\MyRecommendationsService.Application.csproj" />
     <ProjectReference Include="..\Persistance.Base\Persistance.Base.csproj" />
   </ItemGroup>
 
