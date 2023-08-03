@@ -9,6 +9,6 @@ namespace UserService.Domain
         public string Password { get; set; }
         public string AccessToken { get; set; }
         public string Nick { get; set; }
-        public string Avatar { get; set; }
+        public string? Avatar { get; set; }
     }
 }

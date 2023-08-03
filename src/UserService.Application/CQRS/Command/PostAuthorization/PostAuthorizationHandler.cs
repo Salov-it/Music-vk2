@@ -2,10 +2,11 @@
 using UserService.Application.Interface;
 using UserService.Application.Config;
 using UserService.Application.Api;
+using UserService.Application.Dto;
 
 namespace UserService.Application.CQRS.Command.PostAuthorization
 {
-    public class PostAuthorizationHandler : IRequestHandler<PostAuthorizationCommand, string>
+    public class PostAuthorizationHandler : IRequestHandler<PostAuthorizationCommand, UserInfoDto>
     {
         readonly IVkaApi _vkApi;
         readonly IUserRepository _userRepository;
@@ -17,22 +18,39 @@ namespace UserService.Application.CQRS.Command.PostAuthorization
         VKApi vKApi = new VKApi();
         Configs configs = new Configs();
         
-        public async Task<string> Handle(PostAuthorizationCommand request, CancellationToken cancellationToken)
+        public async Task<UserInfoDto> Handle(PostAuthorizationCommand request, CancellationToken cancellationToken)
         {
-          var UserInfo = await _vkApi.ApiAut(request.Login, request.Password, configs.ApplicationId, cancellationToken);
+            await ClearDatabaseAsync();
+            var UserInfo = await _vkApi.ApiAut(request.Login, request.Password, configs.ApplicationId, cancellationToken);
 
             var UserContent = new Domain.User
             {
                 Login = request.Login,
                 Password = request.Password,
                 AccessToken = UserInfo.AccessToken,
-                Nick = UserInfo.Nick
+                Nick = UserInfo.Nick,
+                Avatar = UserInfo.Avatar
             };
 
-           await _userRepository.AddAsync(UserContent);
-           await _userRepository.SaveChangesAsync();
-            
-            return UserContent.Nick;
+            var userInfoDto = new UserInfoDto
+            {
+                Name = UserContent.Nick,
+                Avatar = UserContent.Avatar,
+            };
+
+            await _userRepository.AddAsync(UserContent);
+            await _userRepository.SaveChangesAsync();
+            return userInfoDto;
+        }
+        private async Task ClearDatabaseAsync()
+        {
+            var myaudios = await _userRepository.GetAllAsync();
+
+            foreach (var myaudio in myaudios)
+            {
+                _userRepository.Remove(myaudio);
+            }
+            await _userRepository.SaveChangesAsync();
         }
     }
 }

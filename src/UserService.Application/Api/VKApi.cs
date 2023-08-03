@@ -31,24 +31,26 @@ namespace UserService.Application.Api
             var Api = new VkApi(services);
             Configs configs = new Configs();
             
-
-
             Api.Authorize(new ApiAuthParams
             {
                   ApplicationId = ApplicationId,
                   Login = Login,
                   Password = Password,
             });
-            
-            //Получаем Имя И фамилию текущего профиля
-            var UserInfo =  Api.Users.Get(new long[] {Api.UserId.Value}, 
-                ProfileFields.FirstName | ProfileFields.LastName).FirstOrDefault();
 
-            string Userinfo = UserInfo.FirstName + " " + UserInfo.LastName;
+            //Получаем Имя И фамилию текущего профиля 
+            var UserInfoName = Api.Users.Get(new long[] { Api.UserId.Value },
+                ProfileFields.FirstName | ProfileFields.LastName).FirstOrDefault();
+            string UserinfoName = UserInfoName.FirstName + " " + UserInfoName.LastName;
+            
+            //Получаем фото профиля
+            var UserInfoPhoto = Api.Users.Get(new long[] { Api.UserId.Value }, ProfileFields.PhotoMax);
+
             var UserContent = new Domain.User
             {
-               Nick = Userinfo,
-               AccessToken = Api.Token
+                Nick = UserinfoName,
+                AccessToken = Api.Token,
+                Avatar = UserInfoPhoto[0].PhotoMax.ToString()
             };
             
             return UserContent;
