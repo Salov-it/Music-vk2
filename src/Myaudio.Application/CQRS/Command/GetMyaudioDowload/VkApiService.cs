@@ -12,7 +12,11 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
 {
     public class VkApiService : IVkApiService
     {
-       
+        readonly IAccessToken _accessToken;
+        public VkApiService(IAccessToken accessToken) 
+        {
+           _accessToken = accessToken;
+        }
         async Task<List<VkNet.Model.Attachments.Audio>> IVkApiService.GetAudiosAsync(int count)
         {
             var services = new ServiceCollection();
@@ -20,11 +24,11 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
 
             var api = new VkApi(services);
             Configs congigs = new Configs();
-
-
+           
+            var accessToken =  _accessToken.AccessToken();
             api.Authorize(new ApiAuthParams
             {
-                AccessToken = "1"
+                AccessToken = accessToken
             });
 
             var audios = await api.Audio.GetAsync(new AudioGetParams

@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using UserService.Application.CQRS.Command.PostAuthorization;
+using UserService.Application.CQRS.Querries.GetUserInfo;
 
 namespace WebApi.Controllers
 {
@@ -15,13 +16,24 @@ namespace WebApi.Controllers
             this.mediator = mediator;
         }
 
-        [HttpPost("PostAuthorization")]
-        public async Task<IActionResult> PostAuthorization(string Login, string Password)
+        [HttpPost("Authorization")]
+        public async Task<IActionResult> Authorization(string Login, string Password)
         {
             var content = new PostAuthorizationCommand
             {
                 Login = Login,
                 Password = Password
+            };
+            var answer = await mediator.Send(content);
+            return Ok(answer);
+        }
+
+        [HttpGet("Userinfo")]
+        public async Task<IActionResult> Userinfo()
+        {
+            var content = new GetUserInfoCommand
+            {
+               
             };
             var answer = await mediator.Send(content);
             return Ok(answer);

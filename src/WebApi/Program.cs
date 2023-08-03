@@ -9,6 +9,10 @@ using UserService.Application;
 using UserService.Application.Interface;
 using UserService.Application.CQRS.Command.PostAuthorization;
 using UserService.Application.Api;
+using UserService.Application.Api.AccessToken;
+using UserService.Application.CQRS.Querries.GetUserInfo;
+using UserService.Application.Dto;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +40,13 @@ builder.Services.AddScoped<PostAuthorizationCommand>();
 builder.Services.AddScoped<PostAuthorizationHandler>();
 builder.Services.AddScoped<IVkaApi, VKApi>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAccessToken, AccessToken>();
+//builder.Services.AddScoped<GetUserInfoCommand>();
+//builder.Services.AddScoped<GetUserInfoHandler>();
+//builder.Services.AddScoped<UserInfoDto>();
+
+
+
 
 // Add services to the container.
 
