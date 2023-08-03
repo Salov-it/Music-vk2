@@ -263,11 +263,18 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "MediatR": "12.0.1",
+          "Microsoft.EntityFrameworkCore": "6.0.18",
+          "UserService.Domain": "1.0.0",
           "VkNet": "1.72.0",
           "VkNet.AudioBypassService": "1.7.4"
         },
         "runtime": {
           "UserService.Application.dll": {}
+        }
+      },
+      "UserService.Domain/1.0.0": {
+        "runtime": {
+          "UserService.Domain.dll": {}
         }
       }
     }
@@ -459,6 +466,11 @@
       "sha512": ""
     },
     "UserService.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserService.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

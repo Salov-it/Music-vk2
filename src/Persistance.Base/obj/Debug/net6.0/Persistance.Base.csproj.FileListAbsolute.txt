@@ -17,3 +17,5 @@ D:\Githab\Music-vk2\src\Persistance.Base\obj\Debug\net6.0\Persistance.Base.dll
 D:\Githab\Music-vk2\src\Persistance.Base\obj\Debug\net6.0\refint\Persistance.Base.dll
 D:\Githab\Music-vk2\src\Persistance.Base\obj\Debug\net6.0\Persistance.Base.pdb
 D:\Githab\Music-vk2\src\Persistance.Base\obj\Debug\net6.0\ref\Persistance.Base.dll
+D:\Githab\Music-vk2\src\Persistance.Base\bin\Debug\net6.0\UserService.Domain.dll
+D:\Githab\Music-vk2\src\Persistance.Base\bin\Debug\net6.0\UserService.Domain.pdb

@@ -84,3 +84,5 @@ D:\Githab\Music-vk2\src\WebApi\obj\Debug\net6.0\refint\WebApi.dll
 D:\Githab\Music-vk2\src\WebApi\obj\Debug\net6.0\WebApi.pdb
 D:\Githab\Music-vk2\src\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 D:\Githab\Music-vk2\src\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+D:\Githab\Music-vk2\src\WebApi\bin\Debug\net6.0\UserService.Domain.dll
+D:\Githab\Music-vk2\src\WebApi\bin\Debug\net6.0\UserService.Domain.pdb

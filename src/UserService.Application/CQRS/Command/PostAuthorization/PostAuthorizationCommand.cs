@@ -1,4 +1,6 @@
 ﻿using MediatR;
+using UserService.Domain;
+using VkNet.Model;
 
 namespace UserService.Application.CQRS.Command.PostAuthorization
 {

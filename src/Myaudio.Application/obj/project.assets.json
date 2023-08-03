@@ -431,6 +431,8 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "MediatR": "12.0.1",
+          "Microsoft.EntityFrameworkCore": "6.0.18",
+          "UserService.Domain": "1.0.0",
           "VkNet": "1.72.0",
           "VkNet.AudioBypassService": "1.7.4"
         },
@@ -439,6 +441,16 @@
         },
         "runtime": {
           "bin/placeholder/UserService.Application.dll": {}
+        }
+      },
+      "UserService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/UserService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserService.Domain.dll": {}
         }
       }
     }
@@ -1078,6 +1090,11 @@
       "type": "project",
       "path": "../UserService.Application/UserService.Application.csproj",
       "msbuildProject": "../UserService.Application/UserService.Application.csproj"
+    },
+    "UserService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UserService.Domain/UserService.Domain.csproj",
+      "msbuildProject": "../UserService.Domain/UserService.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

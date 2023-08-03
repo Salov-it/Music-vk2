@@ -12,12 +12,7 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
 {
     public class VkApiService : IVkApiService
     {
-        readonly IVkaApi _vkaApi;
-       public VkApiService(IVkaApi vkaApi)
-        {
-            _vkaApi = vkaApi;
-        }
-
+       
         async Task<List<VkNet.Model.Attachments.Audio>> IVkApiService.GetAudiosAsync(int count)
         {
             var services = new ServiceCollection();

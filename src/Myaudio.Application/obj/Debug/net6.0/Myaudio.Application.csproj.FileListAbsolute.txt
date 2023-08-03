@@ -15,3 +15,5 @@ D:\Githab\Music-vk2\src\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application
 D:\Githab\Music-vk2\src\Myaudio.Application\obj\Debug\net6.0\refint\Myaudio.Application.dll
 D:\Githab\Music-vk2\src\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.pdb
 D:\Githab\Music-vk2\src\Myaudio.Application\obj\Debug\net6.0\ref\Myaudio.Application.dll
+D:\Githab\Music-vk2\src\Myaudio.Application\bin\Debug\net6.0\UserService.Domain.dll
+D:\Githab\Music-vk2\src\Myaudio.Application\bin\Debug\net6.0\UserService.Domain.pdb

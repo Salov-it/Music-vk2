@@ -10,7 +10,8 @@ namespace UserService.Application
         public static IServiceCollection AddUserService(this IServiceCollection services)
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-            services.AddSingleton<IVkaApi, VKApi>();
+            //services.AddSingleton<IVkaApi, VKApi>();
+  
             return services;
         }
     }

@@ -6,7 +6,9 @@ using Persistance.Base;
 using Myaudio.Application.CQRS.Command.GetMyaudioDowload;
 using Myaudio.Application.CQRS.Command.GetMyaudio;
 using UserService.Application;
-
+using UserService.Application.Interface;
+using UserService.Application.CQRS.Command.PostAuthorization;
+using UserService.Application.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +31,11 @@ builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.ILooadin, LoadingM
 
 //builder.Services.UserService
 builder.Services.AddUserService();
+builder.Services.AddScoped<IUserContext, Context>();
+builder.Services.AddScoped<PostAuthorizationCommand>();
+builder.Services.AddScoped<PostAuthorizationHandler>();
+builder.Services.AddScoped<IVkaApi, VKApi>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // Add services to the container.
 
