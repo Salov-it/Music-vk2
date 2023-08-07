@@ -1,0 +1,15 @@
+D:\Githab\Music-vk2\src\UserService.Application\bin\Debug\net6.0\UserService.Application.deps.json
+D:\Githab\Music-vk2\src\UserService.Application\bin\Debug\net6.0\UserService.Application.dll
+D:\Githab\Music-vk2\src\UserService.Application\bin\Debug\net6.0\UserService.Application.pdb
+D:\Githab\Music-vk2\src\UserService.Application\bin\Debug\net6.0\UserService.Domain.dll
+D:\Githab\Music-vk2\src\UserService.Application\bin\Debug\net6.0\UserService.Domain.pdb
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.csproj.AssemblyReference.cache
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.AssemblyInfoInputs.cache
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.AssemblyInfo.cs
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.csproj.CoreCompileInputs.cache
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.csproj.CopyComplete
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.dll
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\refint\UserService.Application.dll
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\UserService.Application.pdb
+D:\Githab\Music-vk2\src\UserService.Application\obj\Debug\net6.0\ref\UserService.Application.dll

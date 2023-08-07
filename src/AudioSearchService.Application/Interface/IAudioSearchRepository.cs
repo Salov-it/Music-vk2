@@ -1,4 +1,5 @@
-﻿using AudioSearchService.Domain;
+﻿using AudioSearchService.Application.Dto;
+using AudioSearchService.Domain;
 using Myaudio.Application.CQRS.Interface;
 using Myaudio.Domain;
 

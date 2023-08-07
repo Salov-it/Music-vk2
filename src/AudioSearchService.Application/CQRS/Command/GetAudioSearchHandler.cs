@@ -1,11 +1,12 @@
 ﻿using AudioSearchService.Application.Dto;
 using AudioSearchService.Application.Interface;
+using AudioSearchService.Domain;
 using MediatR;
 using UserService.Application.Interface;
 
 namespace AudioSearchService.Application.CQRS.Command
 {
-    public class GetAudioSearchHandler : IRequestHandler<GetAudioSearchCommand, List<AudioSearcDto>>
+    public class GetAudioSearchHandler : IRequestHandler<GetAudioSearchCommand, List<AudioSearc>>
     {
         private readonly IAudioSearchContext _audioSearchContext;
         private readonly IAudioSearchRepository _audioSearchRepository;
@@ -14,8 +15,8 @@ namespace AudioSearchService.Application.CQRS.Command
         private readonly ILooadin _looadin;
         
         
-        public List<AudioSearcDto> Audios = new List<AudioSearcDto>();
-        public List<AudioSearcDto> Audios2 { get; set; }
+        public List<AudioSearc> Audios = new List<AudioSearc>();
+        public List<AudioSearc> Audios2 { get; set; }
 
         public GetAudioSearchHandler()
         {
@@ -31,16 +32,17 @@ namespace AudioSearchService.Application.CQRS.Command
             _looadin = looadin;
         }
 
-        public async Task<List<AudioSearcDto>> Handle(GetAudioSearchCommand request, CancellationToken cancellationToken)
+        public async Task<List<AudioSearc>> Handle(GetAudioSearchCommand request, CancellationToken cancellationToken)
         {
-           
-                
 
+            Delete();
+                 
                 var audios = await _audioSearch.audioSearch(request.AudioSearch, request.Count, _accessToken.AccessToken());
-                var Audios1 = new AudioSearcDto();
+                var Audios1 = new AudioSearc();
+              
                 foreach (var audio in audios)
                 {
-                    Audios1 = new AudioSearcDto
+                    Audios1 = new AudioSearc
                     {
                         Name = audio.Title,
                         Time = audio.Duration,
@@ -48,17 +50,20 @@ namespace AudioSearchService.Application.CQRS.Command
                         File = $"./mp3/{audio.Title}.mp3"
                     };
                     Audios.Add(Audios1);
+                    await _audioSearchRepository.AddAsync(Audios1);
                 }
-            
 
-            _looadin.LooadingMp3(Audios);
-            return Audios2 = Audios;
+                await _audioSearchRepository.SaveChangesAsync();
+               _looadin.LooadingMp3(Audios);
+               return Audios2 = Audios;
 
         }
 
-        void Delete(List<AudioSearcDto> Files)
+       public async void Delete()
         {
-
+           
+            var Files = await _audioSearchRepository.GetAllAsync();
+             
             for (int i = 0; i < Files.Count; i++)
             {
                 var FileName1 = Files[i].File;
