@@ -1,4 +1,4 @@
-﻿using AudioSearchService.Application.CQRS.Command;
+﻿using AudioSearchService.Application.CQRS.Command.GetAudioSearch;
 using AudioSearchService.Application.Interface;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;

@@ -20,7 +20,7 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
         }
         public async Task<string> Handle(GetAudioDowloadCommand request, CancellationToken cancellationToken)
         {
-           await ClearDatabaseAsync();
+            await ClearDatabaseAsync();
 
             var audios = await _vkApiService.GetAudiosAsync(request.CountAudio);
 

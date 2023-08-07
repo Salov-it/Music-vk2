@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using UserService.Application.CQRS.Command.PostAuthorization;
 using UserService.Application.Dto;
 using UserService.Application.Interface;
 

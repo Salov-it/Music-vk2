@@ -5,8 +5,6 @@ using VkNet.AudioBypassService.Extensions;
 using VkNet.Model;
 using UserService.Application.Config;
 using VkNet.Enums.Filters;
-using UserService.Domain;
-using System.Text.Json;
 
 namespace UserService.Application.Api
 {

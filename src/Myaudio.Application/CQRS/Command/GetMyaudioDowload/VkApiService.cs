@@ -4,7 +4,6 @@ using VkNet.Model.RequestParams;
 using VkNet.Model;
 using VkNet;
 using VkNet.AudioBypassService.Extensions;
-using UserService.Application.CQRS.Command.PostAuthorization;
 using UserService.Application.Interface;
 using UserService.Application.Config;
 
@@ -39,6 +38,6 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
             List<VkNet.Model.Attachments.Audio> audios1 = audios.ToList();
             
             return audios1;
-       }
+        }
     }
 }

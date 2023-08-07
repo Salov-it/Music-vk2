@@ -1,11 +1,9 @@
-﻿using AudioSearchService.Application.Dto;
-using AudioSearchService.Application.Interface;
+﻿using AudioSearchService.Application.Interface;
 using AudioSearchService.Domain;
 using Myaudio.Domain;
 using System.Diagnostics;
-using System.Runtime.CompilerServices;
 
-namespace AudioSearchService.Application.CQRS.Command
+namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
 {
     internal class LoadingMp3 : ILooadin
     {
@@ -17,7 +15,7 @@ namespace AudioSearchService.Application.CQRS.Command
         char max = '"';
 
         GetAudioSearchHandler getAudioSearchHandler = new GetAudioSearchHandler();
-        public void LooadingMp3(List<AudioSearc>Audios)
+        public void LooadingMp3(List<AudioSearc> Audios)
         {
             for (int i = 0; i < Audios.Count; i++)
             {

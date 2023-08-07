@@ -2,7 +2,7 @@
 using AudioSearchService.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace AudioSearchService.Application.CQRS.Command
+namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
 {
     public class AuduioSearchRepository : IAudioSearchRepository
     {
@@ -30,7 +30,7 @@ namespace AudioSearchService.Application.CQRS.Command
 
         public async Task SaveChangesAsync()
         {
-           await _audioSearchContext.SaveChangesAsync(cancellationToken);
+            await _audioSearchContext.SaveChangesAsync(cancellationToken);
         }
     }
 }
