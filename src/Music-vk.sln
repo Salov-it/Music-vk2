@@ -25,9 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService.Domain", "UserS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AudioSearchService", "AudioSearchService", "{5CF9BEF3-9F85-46C2-AC1E-A173003F4383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioSearchService.Application", "AudioSearchService.Application\AudioSearchService.Application.csproj", "{936CE09C-2D95-4972-B43E-3A6F24FF5626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioSearchService.Application", "AudioSearchService.Application\AudioSearchService.Application.csproj", "{936CE09C-2D95-4972-B43E-3A6F24FF5626}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioSearchService.Domain", "AudioSearchService.Domain\AudioSearchService.Domain.csproj", "{E65D41E6-41B7-457B-8D91-06BD3E360E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioSearchService.Domain", "AudioSearchService.Domain\AudioSearchService.Domain.csproj", "{E65D41E6-41B7-457B-8D91-06BD3E360E62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AudioPopularService", "AudioPopularService", "{FCE28802-E3F2-401B-856B-29D040B1DA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPopularService.Application", "AudioPopularService.Application\AudioPopularService.Application.csproj", "{495EB365-4927-42DB-BED7-14CA210FEF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPopularService.Domain", "AudioPopularService.Domain\AudioPopularService.Domain.csproj", "{6795D9F2-244C-409C-8F18-5D290C3B0B57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +73,14 @@ Global
 		{E65D41E6-41B7-457B-8D91-06BD3E360E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65D41E6-41B7-457B-8D91-06BD3E360E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65D41E6-41B7-457B-8D91-06BD3E360E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495EB365-4927-42DB-BED7-14CA210FEF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495EB365-4927-42DB-BED7-14CA210FEF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495EB365-4927-42DB-BED7-14CA210FEF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495EB365-4927-42DB-BED7-14CA210FEF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6795D9F2-244C-409C-8F18-5D290C3B0B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6795D9F2-244C-409C-8F18-5D290C3B0B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6795D9F2-244C-409C-8F18-5D290C3B0B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6795D9F2-244C-409C-8F18-5D290C3B0B57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +94,8 @@ Global
 		{DFA8B186-13A1-41C5-828C-57EC50A1FBC5} = {CCE86736-924C-4203-8F83-611BAFBF8206}
 		{936CE09C-2D95-4972-B43E-3A6F24FF5626} = {5CF9BEF3-9F85-46C2-AC1E-A173003F4383}
 		{E65D41E6-41B7-457B-8D91-06BD3E360E62} = {5CF9BEF3-9F85-46C2-AC1E-A173003F4383}
+		{495EB365-4927-42DB-BED7-14CA210FEF87} = {FCE28802-E3F2-401B-856B-29D040B1DA21}
+		{6795D9F2-244C-409C-8F18-5D290C3B0B57} = {FCE28802-E3F2-401B-856B-29D040B1DA21}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E5A699B4-4A28-49F2-BAC7-5E6AF7099D11}

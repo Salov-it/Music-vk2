@@ -12,6 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AudioPopularService.Application\AudioPopularService.Application.csproj" />
+    <ProjectReference Include="..\AudioPopularService.Domain\AudioPopularService.Domain.csproj" />
     <ProjectReference Include="..\AudioSearchService.Application\AudioSearchService.Application.csproj" />
     <ProjectReference Include="..\AudioSearchService.Domain\AudioSearchService.Domain.csproj" />
     <ProjectReference Include="..\Myaudio.Application\Myaudio.Application.csproj" />

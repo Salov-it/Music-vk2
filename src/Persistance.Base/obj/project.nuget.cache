@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cccgGer4F83m7DxD47YnD/NWIKB4H0EUuKTwKTDdAQXP8xpvphgz51ijVscEuntGHkeVx81Q848XmoSJpIKjCQ==",
+  "dgSpecHash": "/uhvWzU56lpYtq7ZvHsgZt3nEbYV2rofE74Q44Gg2whBOAJq4zU0Sw3iiiwxi35Qd2gpR/1khFnNXXL5xXHR5g==",
   "success": true,
   "projectFilePath": "D:\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Васюринская\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Васюринская\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Васюринская\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Васюринская\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Васюринская\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

@@ -1,5 +1,4 @@
 using Myaudio.Application.CQRS.Interface;
-using Myaudio.Application.CQRS.Mapping;
 using System.Reflection;
 using Myaudio.Application;
 using Persistance.Base;
@@ -12,6 +11,7 @@ using UserService.Application.Api;
 using UserService.Application.Api.AccessToken;
 using AudioSearchService.Application;
 using AudioSearchService.Application.Interface;
+using AudioPopularService.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +45,8 @@ builder.Services.AddScoped<IAccessToken, AccessToken>();
 builder.Services.AddAudioSearchService();
 builder.Services.AddScoped<IAudioSearchContext, Context>();
 
+//AudioPopularService
+builder.Services.AddAudioPopularService();
 
 
 

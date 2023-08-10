@@ -929,6 +929,38 @@
           "lib/net6.0/VkNet.AudioBypassService.dll": {}
         }
       },
+      "AudioPopularService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AudioPopularService.Domain": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "MediatR": "12.1.1",
+          "Microsoft.EntityFrameworkCore": "6.0.18",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Reflection": "4.3.0",
+          "UserService.Application": "1.0.0",
+          "VkNet": "1.72.0",
+          "VkNet.AudioBypassService": "1.7.4"
+        },
+        "compile": {
+          "bin/placeholder/AudioPopularService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AudioPopularService.Application.dll": {}
+        }
+      },
+      "AudioPopularService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AudioPopularService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AudioPopularService.Domain.dll": {}
+        }
+      },
       "AudioSearchService.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -992,6 +1024,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AudioPopularService.Application": "1.0.0",
+          "AudioPopularService.Domain": "1.0.0",
           "AudioSearchService.Application": "1.0.0",
           "AudioSearchService.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.18",
@@ -2823,6 +2857,16 @@
         "vknet.audiobypassservice.nuspec"
       ]
     },
+    "AudioPopularService.Application/1.0.0": {
+      "type": "project",
+      "path": "../AudioPopularService.Application/AudioPopularService.Application.csproj",
+      "msbuildProject": "../AudioPopularService.Application/AudioPopularService.Application.csproj"
+    },
+    "AudioPopularService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AudioPopularService.Domain/AudioPopularService.Domain.csproj",
+      "msbuildProject": "../AudioPopularService.Domain/AudioPopularService.Domain.csproj"
+    },
     "AudioSearchService.Application/1.0.0": {
       "type": "project",
       "path": "../AudioSearchService.Application/AudioSearchService.Application.csproj",
@@ -2861,6 +2905,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AudioPopularService.Application >= 1.0.0",
       "AudioSearchService.Application >= 1.0.0",
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
@@ -2901,6 +2946,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj": {
+              "projectPath": "D:\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj"
+            },
             "D:\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
               "projectPath": "D:\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj"
             },
