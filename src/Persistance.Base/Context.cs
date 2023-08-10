@@ -14,7 +14,7 @@ namespace Persistance.Base
         public DbSet<Myaudios> Myaudio { get; set; }
         public DbSet<UserService.Domain.User> user { get; set; }
         public DbSet<AudioSearc> audios { get; set; }
-        public DbSet<AudioPopul> audioPopuls { get; set; }
+        public DbSet<AudioPopul> audiopopul { get; set; }
 
         public Context(DbContextOptions<Context> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

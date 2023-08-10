@@ -1,28 +1,37 @@
 ﻿using AudioPopularService.Application.Interface;
 using AudioPopularService.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
 {
     public class AudioPopularRepository : IAudioPopulaRepository
     {
-        public Task AddAsync(AudioPopul audio)
+        private readonly IAudioPopularContext _audioPopularContext;
+
+        CancellationToken cancellationToken = new CancellationToken();
+
+        public AudioPopularRepository(IAudioPopularContext audioPopularContext)
         {
-            throw new NotImplementedException();
+            _audioPopularContext = audioPopularContext;
+        }
+        public async Task AddAsync(AudioPopul audio)
+        {
+            await _audioPopularContext.audiopopul.AddRangeAsync(audio);
         }
 
-        public Task<List<AudioPopul>> GetAllAsync()
+        public async Task<List<AudioPopul>> GetAllAsync()
         {
-            throw new NotImplementedException();
+          return  await _audioPopularContext.audiopopul.ToListAsync();
         }
 
         public void Remove(AudioPopul audio)
         {
-            throw new NotImplementedException();
+            _audioPopularContext.audiopopul.Remove(audio);
         }
 
-        public Task SaveChangesAsync()
+        public async Task SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            await _audioPopularContext.SaveChangesAsync(cancellationToken);
         }
     }
 }
