@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
+using AudioPopularService.Application.Interface;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 namespace AudioPopularService.Application
@@ -9,7 +11,13 @@ namespace AudioPopularService.Application
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             // services.AddScoped<>():
-           
+            services.AddScoped<GetAudioPopulaCommand>();
+            services.AddScoped<GetAudioPopulaHandler>();
+            services.AddScoped<IAudioPopular, AudioPopular>();
+            services.AddScoped<IAudioPopulaRepository,AudioPopularRepository>();
+            services.AddScoped<ILooadin, LoadingMp3>();
+            
+
 
             return services;
         }

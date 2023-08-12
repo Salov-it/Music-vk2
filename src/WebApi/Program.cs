@@ -12,6 +12,8 @@ using UserService.Application.Api.AccessToken;
 using AudioSearchService.Application;
 using AudioSearchService.Application.Interface;
 using AudioPopularService.Application;
+using AudioPopularService.Application.Interface;
+using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,7 +32,7 @@ builder.Services.AddApplication();
 builder.Services.AddPersistance(configuration);
 builder.Services.AddScoped<IMyaudiosRepository, MyaudiosRepository>();
 builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.IVkApiService, VkApiService>();
-builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.ILooadin, LoadingMp3>();
+builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.ILooadin, Myaudio.Application.CQRS.Command.GetMyaudio.LoadingMp3>();
 
 //builder.Services.UserService
 builder.Services.AddUserService();
@@ -47,6 +49,9 @@ builder.Services.AddScoped<IAudioSearchContext, Context>();
 
 //AudioPopularService
 builder.Services.AddAudioPopularService();
+builder.Services.AddScoped<IAudioPopularContext, Context>();
+
+
 
 
 

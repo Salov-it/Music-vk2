@@ -1,5 +1,4 @@
 ﻿using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
-using AudioSearchService.Application.CQRS.Command.GetAudioSearch;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

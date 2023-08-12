@@ -25,9 +25,11 @@ namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
             _accessToken = accessToken;
             _audioPopular = audioPopular;
             _looadin = looadin;
+            _audioPopulaRepository = audioPopulaRepository;
         }  
         public async Task<List<AudioPopul>> Handle(GetAudioPopulaCommand request, CancellationToken cancellationToken)
         {
+             Delete();
             var audios = await _audioPopular.AudioPopular(request.Count, _accessToken.AccessToken());
             var Audios2 = new AudioPopul();
 
@@ -50,6 +52,27 @@ namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
             _looadin.LooadingMp3(Audios);
             return Audios;
 
+        }
+
+        public async void Delete()
+        {
+            var Files = await _audioPopulaRepository.GetAllAsync();
+
+            for (int i = 0; i < Files.Count; i++)
+            {
+                var FileName1 = Files[i].File;
+                if (File.Exists(FileName1))
+                {
+                    try
+                    {
+                        File.Delete(FileName1);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("The deletion failed: {0}", e.Message);
+                    }
+                }
+            }
         }
     }
 }
