@@ -31,9 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioSearchService.Domain",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AudioPopularService", "AudioPopularService", "{FCE28802-E3F2-401B-856B-29D040B1DA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPopularService.Application", "AudioPopularService.Application\AudioPopularService.Application.csproj", "{495EB365-4927-42DB-BED7-14CA210FEF87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioPopularService.Application", "AudioPopularService.Application\AudioPopularService.Application.csproj", "{495EB365-4927-42DB-BED7-14CA210FEF87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPopularService.Domain", "AudioPopularService.Domain\AudioPopularService.Domain.csproj", "{6795D9F2-244C-409C-8F18-5D290C3B0B57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioPopularService.Domain", "AudioPopularService.Domain\AudioPopularService.Domain.csproj", "{6795D9F2-244C-409C-8F18-5D290C3B0B57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

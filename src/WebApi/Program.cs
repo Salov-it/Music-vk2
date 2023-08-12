@@ -26,6 +26,8 @@ builder.Services.AddAutoMapper(config =>
     config.AddProfile(new Myaudio.Application.CQRS.Mapping.AssemblyMappingProfile(typeof(IContext).Assembly));
 });
 
+builder.Services.AddHttpClient();
+
 
 //builder.Services.Myaudio
 builder.Services.AddApplication();
