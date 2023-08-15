@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioPopularService.Applica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioPopularService.Domain", "AudioPopularService.Domain\AudioPopularService.Domain.csproj", "{6795D9F2-244C-409C-8F18-5D290C3B0B57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FBCF6A07-0AD9-4056-A6A0-2E85C23B85FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Music-vk-Client-Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Music-vk-Client-Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Music-vk-Client-Api.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Music-vk-Client-Api/1.0.0": {
+      "type": "project",
+      "path": "../Music-vk-Client-Api/Music-vk-Client-Api.csproj",
+      "msbuildProject": "../Music-vk-Client-Api/Music-vk-Client-Api.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Music-vk-Client-Api >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Администратор\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\TelegramClient\\TelegramClient\\TelegramClient\\TelegramClient.csproj",
+      "projectName": "TelegramClient",
+      "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\TelegramClient\\TelegramClient\\TelegramClient\\TelegramClient.csproj",
+      "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\TelegramClient\\TelegramClient\\TelegramClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\TelegramClient\\TelegramClient\\Music-vk-Client-Api\\Music-vk-Client-Api.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\TelegramClient\\TelegramClient\\Music-vk-Client-Api\\Music-vk-Client-Api.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

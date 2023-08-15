@@ -155,6 +155,149 @@
         }
       }
     },
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj",
+        "projectName": "AudioSearchService.Application",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "VkNet": {
+              "target": "Package",
+              "version": "[1.72.0, )"
+            },
+            "VkNet.AudioBypassService": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj",
+        "projectName": "AudioSearchService.Domain",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Music-vk.Test\\Music-vk.Test.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -181,6 +324,33 @@
             "projectReferences": {
               "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj": {
                 "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\WebApi\\WebApi.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\WebApi\\WebApi.csproj"
               }
             }
           }
@@ -195,6 +365,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
@@ -214,6 +392,229 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
+        "projectName": "Myaudio.Application",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "VkNet": {
+              "target": "Package",
+              "version": "[1.72.0, )"
+            },
+            "VkNet.AudioBypassService": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "projectName": "Myaudio.Domain",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
+        "projectName": "Persistance.Base",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.18, )"
             }
           },
           "imports": [
@@ -364,6 +765,106 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\WebApi\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\WebApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj"
+              },
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

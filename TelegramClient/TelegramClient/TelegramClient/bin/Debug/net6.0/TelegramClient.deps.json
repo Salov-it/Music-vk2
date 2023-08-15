@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TelegramClient/1.0.0": {
+        "dependencies": {
+          "Music-vk-Client-Api": "1.0.0"
+        },
+        "runtime": {
+          "TelegramClient.dll": {}
+        }
+      },
+      "Music-vk-Client-Api/1.0.0": {
+        "runtime": {
+          "Music-vk-Client-Api.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TelegramClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Music-vk-Client-Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

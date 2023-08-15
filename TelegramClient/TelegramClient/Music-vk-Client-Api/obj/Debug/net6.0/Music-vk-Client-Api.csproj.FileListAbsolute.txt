@@ -1,0 +1,11 @@
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\bin\Debug\net6.0\Music-vk-Client-Api.deps.json
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\bin\Debug\net6.0\Music-vk-Client-Api.dll
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\bin\Debug\net6.0\Music-vk-Client-Api.pdb
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\Music-vk-Client-Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\Music-vk-Client-Api.AssemblyInfoInputs.cache
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\Music-vk-Client-Api.AssemblyInfo.cs
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\Music-vk-Client-Api.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\Music-vk-Client-Api.dll
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\refint\Music-vk-Client-Api.dll
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\Music-vk-Client-Api.pdb
+C:\Users\Администратор\Desktop\Salov\Githab\Music-vk2\TelegramClient\TelegramClient\Music-vk-Client-Api\obj\Debug\net6.0\ref\Music-vk-Client-Api.dll
