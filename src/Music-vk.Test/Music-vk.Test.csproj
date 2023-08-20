@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -6,13 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <IsPackable>true</IsPackable>
+    <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FakeItEasy" Version="7.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="6.0.18" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="6.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.18" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
@@ -26,15 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AudioPopularService.Application\AudioPopularService.Application.csproj" />
-    <ProjectReference Include="..\AudioPopularService.Domain\AudioPopularService.Domain.csproj" />
-    <ProjectReference Include="..\AudioSearchService.Application\AudioSearchService.Application.csproj" />
-    <ProjectReference Include="..\AudioSearchService.Domain\AudioSearchService.Domain.csproj" />
-    <ProjectReference Include="..\Myaudio.Application\Myaudio.Application.csproj" />
-    <ProjectReference Include="..\Myaudio.Domain\Myaudio.Domain.csproj" />
-    <ProjectReference Include="..\Persistance.Base\Persistance.Base.csproj" />
-    <ProjectReference Include="..\UserService.Application\UserService.Application.csproj" />
-    <ProjectReference Include="..\UserService.Domain\UserService.Domain.csproj" />
     <ProjectReference Include="..\WebApi\WebApi.csproj" />
   </ItemGroup>
 

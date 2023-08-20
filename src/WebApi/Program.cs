@@ -14,6 +14,9 @@ using AudioSearchService.Application.Interface;
 using AudioPopularService.Application;
 using AudioPopularService.Application.Interface;
 using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
+using Owin;
+using System.Web.Http;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -81,6 +84,7 @@ using (var scope = app.Services.CreateScope())
     }
 };
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -95,3 +99,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }

@@ -1,7 +1,12 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System.Web.Http;
 using UserService.Application.CQRS.Command.PostAuthorization;
 using UserService.Application.CQRS.Querries.GetUserInfo;
+using FromBodyAttribute = Microsoft.AspNetCore.Mvc.FromBodyAttribute;
+using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
+using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace WebApi.Controllers
 {
@@ -16,8 +21,8 @@ namespace WebApi.Controllers
             this.mediator = mediator;
         }
 
-        [HttpPost("Authorization")]
-        public async Task<IActionResult> Authorization(string Login, string Password)
+        [HttpGet("Authorization")]
+        public async Task<IActionResult> Authorization([FromQuery]string Login,string Password)
         {
             var content = new PostAuthorizationCommand
             {

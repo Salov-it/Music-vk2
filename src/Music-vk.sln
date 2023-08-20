@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioPopularService.Applica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioPopularService.Domain", "AudioPopularService.Domain\AudioPopularService.Domain.csproj", "{6795D9F2-244C-409C-8F18-5D290C3B0B57}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FBCF6A07-0AD9-4056-A6A0-2E85C23B85FB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6B7B81DA-A574-43FC-8455-FC7063F6EA5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Music-vk.Test", "Music-vk.Test\Music-vk.Test.csproj", "{8FE08264-730D-4BDA-A7DD-15DA671F9879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{6795D9F2-244C-409C-8F18-5D290C3B0B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6795D9F2-244C-409C-8F18-5D290C3B0B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6795D9F2-244C-409C-8F18-5D290C3B0B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE08264-730D-4BDA-A7DD-15DA671F9879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE08264-730D-4BDA-A7DD-15DA671F9879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE08264-730D-4BDA-A7DD-15DA671F9879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE08264-730D-4BDA-A7DD-15DA671F9879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{E65D41E6-41B7-457B-8D91-06BD3E360E62} = {5CF9BEF3-9F85-46C2-AC1E-A173003F4383}
 		{495EB365-4927-42DB-BED7-14CA210FEF87} = {FCE28802-E3F2-401B-856B-29D040B1DA21}
 		{6795D9F2-244C-409C-8F18-5D290C3B0B57} = {FCE28802-E3F2-401B-856B-29D040B1DA21}
+		{8FE08264-730D-4BDA-A7DD-15DA671F9879} = {6B7B81DA-A574-43FC-8455-FC7063F6EA5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E5A699B4-4A28-49F2-BAC7-5E6AF7099D11}

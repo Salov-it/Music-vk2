@@ -7,5 +7,6 @@
   "Myaudio.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain",
   "Persistance.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base",
   "UserService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application",
-  "UserService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain"
+  "UserService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain",
+  "WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\WebApi"
 }

@@ -12,7 +12,9 @@ namespace WebApi.Controllers
     {
         private readonly IMediator mediator;
 
-       
+        public AudioPopularController()
+        {
+        }
 
         public AudioPopularController(IMediator mediator)
         {
