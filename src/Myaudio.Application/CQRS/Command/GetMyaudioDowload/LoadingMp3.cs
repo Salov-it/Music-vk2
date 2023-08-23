@@ -31,7 +31,7 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudio
                 string text3 = string.Join(" ", text);
 
                 Process process = new Process();
-                string path6 = @"./ffmpeg/ffmpeg.exe";
+                string path6 = @"C:\Users\salov\Desktop\Программы\Githab\Music-vk2\src\WebApi\ffmpeg\ffmpeg.exe";
                 process.StartInfo.FileName = path6;
                 process.StartInfo.Arguments = text3;
                 process.Start();

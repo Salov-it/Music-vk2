@@ -3193,6 +3193,22 @@
           }
         }
       },
+      "Xunit.Priority/1.1.6": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "2.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xunit.Priority.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xunit.Priority.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "xunit.runner.visualstudio/2.4.5": {
         "type": "package",
         "compile": {
@@ -9051,6 +9067,23 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
+    "Xunit.Priority/1.1.6": {
+      "sha512": "VF8yb6PHWb7ABkbEoWbesg0DsN3Pt7HQ2CGaIjyUh23jo3aCRm1zOAP/zQQh3B3Gi3K+5Xds8qs+SRUB2Hyr6Q==",
+      "type": "package",
+      "path": "xunit.priority/1.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Xunit.Priority.dll",
+        "lib/net452/Xunit.Priority.xml",
+        "lib/netstandard1.1/Xunit.Priority.dll",
+        "lib/netstandard1.1/Xunit.Priority.xml",
+        "lib/netstandard2.0/Xunit.Priority.dll",
+        "lib/netstandard2.0/Xunit.Priority.xml",
+        "xunit.priority.1.1.6.nupkg.sha512",
+        "xunit.priority.nuspec"
+      ]
+    },
     "xunit.runner.visualstudio/2.4.5": {
       "sha512": "OwHamvBdUKgqsXfBzWiCW/O98BTx81UKzx2bieIOQI7CZFE5NEQZGi8PBQGIKawDW96xeRffiNf20SjfC0x9hw==",
       "type": "package",
@@ -9144,6 +9177,7 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 6.0.18",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "WebApi >= 1.0.0",
+      "Xunit.Priority >= 1.1.6",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -9211,6 +9245,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
+          },
+          "Xunit.Priority": {
+            "target": "Package",
+            "version": "[1.1.6, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

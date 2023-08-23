@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
 {
-    internal class LoadingMp3 : ILooadin
+    public class LoadingMp3 : ILooadin
     {
 
         string param1 = "-y" + " " + "-i";
@@ -15,7 +15,7 @@ namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
         char max = '"';
 
         GetAudioSearchHandler getAudioSearchHandler = new GetAudioSearchHandler();
-        public void LooadingMp3(List<AudioSearc> Audios)
+        public async void LooadingMp3(List<AudioSearc> Audios)
         {
             for (int i = 0; i < Audios.Count; i++)
             {
@@ -26,7 +26,7 @@ namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
                 string text3 = string.Join(" ", text);
 
                 Process process = new Process();
-                string path6 = @"./ffmpeg/ffmpeg.exe";
+                string path6 = @"C:\Users\salov\Desktop\Программы\Githab\Music-vk2\src\WebApi\ffmpeg\ffmpeg.exe";
                 process.StartInfo.FileName = path6;
                 process.StartInfo.Arguments = text3;
                 process.Start();

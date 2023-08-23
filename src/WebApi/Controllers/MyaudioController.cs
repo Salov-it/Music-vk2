@@ -18,19 +18,14 @@ namespace Myaudio.WebApi.Controllers
         }
 
         [HttpGet("GetAudo")]
-        public async Task<IActionResult> GetAudio(JsonCount jsonCount)
+        public async Task<IActionResult> GetAudio([FromQuery] int Count)
         {
             var content = new GetAudioCommand
             {
-                CountAudio = jsonCount.Count
+                CountAudio = Count
             };
             var answer = await mediator.Send(content);
             return Ok(answer);
-        }
-
-        public class JsonCount
-        {
-            public int Count { get; set; }  
         }
 
     }

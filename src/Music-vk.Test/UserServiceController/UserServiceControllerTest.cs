@@ -7,9 +7,12 @@ using System.Text.Json;
 using Newtonsoft.Json;
 using System;
 using System.Net.Http.Json;
+using Xunit.Priority;
 
 namespace Music_vk.Test.UserServiceController
 {
+    [Collection("Test")]
+    [DefaultPriority(0)]
     public class UserServiceControllerTest : IClassFixture<MusicVkWebApplicationFactory<Program>>
     {
         private readonly HttpClient _client;
@@ -22,14 +25,11 @@ namespace Music_vk.Test.UserServiceController
         [Fact]
         public async Task PostUserAuthorization()
         {
-            
-            
             JsonUser jsonUser = new JsonUser
             {
                 Login = "89244452428",
                 Password = "Salov1999"
             };
-            //string content = JsonConvert.SerializeObject(jsonUser);
             
             var httpResponse = await _client.PostAsJsonAsync(requestUri:"api/UserService/Authorization",jsonUser); 
 

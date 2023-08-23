@@ -22,19 +22,15 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("AudioPopular")]
-        public async Task<IActionResult> AudioPopular([FromBody] JsonCount jsonCount)
+        public async Task<IActionResult> AudioPopular([FromQuery] uint Count)
         {
             var content = new GetAudioPopulaCommand
             {
-                Count = jsonCount.Count
+                Count = Count
             };
             var answer = await mediator.Send(content);
             return Ok(answer);
         }
 
-        public class JsonCount
-        {
-            public uint Count { get; set; }
-        }
     }
 }

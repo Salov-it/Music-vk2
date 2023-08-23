@@ -17,23 +17,22 @@ namespace WebApi.Controllers
             this.mediator = mediator;
         }
 
-        [HttpGet("AudioSearch")]
-        public async Task<IActionResult> AudioSearch([FromBody] JsonAudioSearch jsonAudio)
+        [HttpPost("AudioSearch")]
+        public async Task<IActionResult> AudioSearch([FromBody] JsonContent jsonContent)
         {
-            var content = new GetAudioSearchCommand
-            {
-                AudioSearch = jsonAudio.AudioSearch,
-                Count = jsonAudio.CountAudio
-            };
+             var content = new GetAudioSearchCommand
+             {
+                AudioSearch = jsonContent.AudioSearch,
+                Count = jsonContent.CountAudio
+             };
             var answer = await mediator.Send(content);
             return Ok(answer);
         }
-
-        public class JsonAudioSearch
+        
+        public class JsonContent
         {
             public string AudioSearch { get; set; }
             public int CountAudio { get; set; }
         }
-
     }
 }

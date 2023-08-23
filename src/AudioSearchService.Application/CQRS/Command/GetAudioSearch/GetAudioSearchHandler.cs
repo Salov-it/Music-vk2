@@ -52,7 +52,11 @@ namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
             }
 
             await _audioSearchRepository.SaveChangesAsync();
-            _looadin.LooadingMp3(Audios);
+
+            new Thread(delegate () {
+                _looadin.LooadingMp3(Audios);
+            }).Start();
+            
             return Audios2 = Audios;
 
         }
