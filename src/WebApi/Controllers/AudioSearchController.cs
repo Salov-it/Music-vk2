@@ -18,15 +18,21 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("AudioSearch")]
-        public async Task<IActionResult> AudioSearch(string AudioSearch, int CountAudio)
+        public async Task<IActionResult> AudioSearch([FromBody] JsonAudioSearch jsonAudio)
         {
             var content = new GetAudioSearchCommand
             {
-                AudioSearch = AudioSearch,
-                Count = CountAudio
+                AudioSearch = jsonAudio.AudioSearch,
+                Count = jsonAudio.CountAudio
             };
             var answer = await mediator.Send(content);
             return Ok(answer);
+        }
+
+        public class JsonAudioSearch
+        {
+            public string AudioSearch { get; set; }
+            public int CountAudio { get; set; }
         }
 
     }
