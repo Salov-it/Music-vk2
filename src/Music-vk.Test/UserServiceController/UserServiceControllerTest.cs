@@ -3,6 +3,10 @@ using System.Net;
 using System.Net.Http;
 using VkNet.Utils;
 using Xunit;
+using System.Text.Json;
+using Newtonsoft.Json;
+using System;
+using System.Net.Http.Json;
 
 namespace Music_vk.Test.UserServiceController
 {
@@ -18,24 +22,26 @@ namespace Music_vk.Test.UserServiceController
         [Fact]
         public async Task PostUserAuthorization()
         {
-            var login = "89244452428";
-            var password = "Salov1999";
-
-            var content = new FormUrlEncodedContent(new[]
+            
+            
+            JsonUser jsonUser = new JsonUser
             {
-                new KeyValuePair<string, string>("Login", login),
-                new KeyValuePair<string, string>("Password", password)
-            });
-
-            var formData = await content.ReadAsFormDataAsync();
-
-
-
-            var httpResponse = await _client.GetAsync(requestUri: "api/UserService/Authorization?Login=89244452428&Password=Salov1999"); 
+                Login = "89244452428",
+                Password = "Salov1999"
+            };
+            //string content = JsonConvert.SerializeObject(jsonUser);
+            
+            var httpResponse = await _client.PostAsJsonAsync(requestUri:"api/UserService/Authorization",jsonUser); 
 
             httpResponse.EnsureSuccessStatusCode();
 
             Assert.Equal(HttpStatusCode.OK, httpResponse.StatusCode);
+        }
+
+        public class JsonUser
+        {
+            public string Login { get; set; }
+            public string Password { get; set; }
         }
     }
 }

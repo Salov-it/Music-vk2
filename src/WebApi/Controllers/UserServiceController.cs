@@ -21,13 +21,13 @@ namespace WebApi.Controllers
             this.mediator = mediator;
         }
 
-        [HttpGet("Authorization")]
-        public async Task<IActionResult> Authorization([FromQuery]string Login,string Password)
+        [HttpPost("Authorization")]
+        public async Task<IActionResult> Authorization([FromBody] JsonUser jsonUser)
         {
             var content = new PostAuthorizationCommand
             {
-                Login = Login,
-                Password = Password
+                Login = jsonUser.Login,
+                Password = jsonUser.Password
             };
             var answer = await mediator.Send(content);
             return Ok(answer);
@@ -42,6 +42,12 @@ namespace WebApi.Controllers
             };
             var answer = await mediator.Send(content);
             return Ok(answer);
+        }
+        
+        public class JsonUser
+        {
+            public string Login { get; set; }
+            public string Password { get; set; }
         }
     }
 }
