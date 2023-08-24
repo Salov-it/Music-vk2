@@ -3,16 +3,10 @@ using Myaudio.Application;
 using Persistance.Base;
 using UserService.Application;
 using UserService.Application.Interface;
-using UserService.Application.CQRS.Command.PostAuthorization;
-using UserService.Application.Api;
-using UserService.Application.Api.AccessToken;
 using AudioSearchService.Application;
 using AudioSearchService.Application.Interface;
 using AudioPopularService.Application;
 using AudioPopularService.Application.Interface;
-using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
-using Owin;
-using System.Web.Http;
 using Myaudio.Application.CQRS.Query.GetMyaudioDowload;
 using Myaudio.Application.Interface;
 
@@ -41,11 +35,7 @@ builder.Services.AddScoped<Myaudio.Application.Interface.ILooadin, Myaudio.Appli
 //builder.Services.UserService
 builder.Services.AddUserService();
 builder.Services.AddScoped<IUserContext, Context>();
-builder.Services.AddScoped<PostAuthorizationCommand>();
-builder.Services.AddScoped<PostAuthorizationHandler>();
-builder.Services.AddScoped<IVkaApi, VKApi>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IAccessToken, AccessToken>();
+
 
 //AudioSearchService
 builder.Services.AddAudioSearchService();

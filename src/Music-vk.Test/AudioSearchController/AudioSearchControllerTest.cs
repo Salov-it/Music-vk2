@@ -24,7 +24,7 @@ namespace Music_vk.Test.AudioSearchController
         }
 
         [Fact(DisplayName = "Test_3")]
-        public async Task GetAudioSearch()
+        public async Task PostAudioSearch()
         {
             
             JsonContent content = new JsonContent
