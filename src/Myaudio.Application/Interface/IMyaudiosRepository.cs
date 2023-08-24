@@ -1,6 +1,6 @@
 ﻿using Myaudio.Domain;
 
-namespace Myaudio.Application.CQRS.Interface
+namespace Myaudio.Application.Interface
 {
     public interface IMyaudiosRepository
     {

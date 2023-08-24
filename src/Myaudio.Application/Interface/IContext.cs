@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Myaudio.Domain;
 
-namespace Myaudio.Application.CQRS.Interface
+namespace Myaudio.Application.Interface
 {
     public interface IContext
     {

@@ -1,4 +1,5 @@
 ﻿using AudioSearchService.Application.CQRS.Command.GetAudioSearch;
+using AudioSearchService.Application.CQRS.Command.PostAudioSearch;
 using AudioSearchService.Application.Interface;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
@@ -11,8 +12,8 @@ namespace AudioSearchService.Application
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             // services.AddScoped<>():
-            services.AddScoped<GetAudioSearchCommand>();
-            services.AddScoped<GetAudioSearchHandler>();
+            services.AddScoped<PostAudioSearchCommand>();
+            services.AddScoped<PostAudioSearchHandler>();
             services.AddScoped<IAudioSearch, AudioSearch>();
             services.AddScoped<IAudioSearchRepository, AuduioSearchRepository>();
             services.AddScoped<ILooadin, LoadingMp3>();

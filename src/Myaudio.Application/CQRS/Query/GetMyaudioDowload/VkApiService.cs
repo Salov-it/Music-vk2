@@ -1,20 +1,20 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Myaudio.Application.CQRS.Interface;
 using VkNet.Model.RequestParams;
 using VkNet.Model;
 using VkNet;
 using VkNet.AudioBypassService.Extensions;
 using UserService.Application.Interface;
 using UserService.Application.Config;
+using Myaudio.Application.Interface;
 
-namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
+namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
 {
     public class VkApiService : IVkApiService
     {
         readonly IAccessToken _accessToken;
-        public VkApiService(IAccessToken accessToken) 
+        public VkApiService(IAccessToken accessToken)
         {
-           _accessToken = accessToken;
+            _accessToken = accessToken;
         }
         async Task<List<VkNet.Model.Attachments.Audio>> IVkApiService.GetAudiosAsync(int count)
         {
@@ -23,8 +23,8 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
 
             var api = new VkApi(services);
             Configs congigs = new Configs();
-           
-            var accessToken =  _accessToken.AccessToken();
+
+            var accessToken = _accessToken.AccessToken();
             api.Authorize(new ApiAuthParams
             {
                 AccessToken = accessToken
@@ -36,7 +36,7 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
             });
 
             List<VkNet.Model.Attachments.Audio> audios1 = audios.ToList();
-            
+
             return audios1;
         }
     }

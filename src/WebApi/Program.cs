@@ -1,9 +1,6 @@
-using Myaudio.Application.CQRS.Interface;
 using System.Reflection;
 using Myaudio.Application;
 using Persistance.Base;
-using Myaudio.Application.CQRS.Command.GetMyaudioDowload;
-using Myaudio.Application.CQRS.Command.GetMyaudio;
 using UserService.Application;
 using UserService.Application.Interface;
 using UserService.Application.CQRS.Command.PostAuthorization;
@@ -16,7 +13,8 @@ using AudioPopularService.Application.Interface;
 using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
 using Owin;
 using System.Web.Http;
-
+using Myaudio.Application.CQRS.Query.GetMyaudioDowload;
+using Myaudio.Application.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,8 +23,8 @@ IConfiguration configuration = builder.Configuration;
 //builder.Services.Myaudio
 builder.Services.AddAutoMapper(config =>
 {
-    config.AddProfile(new Myaudio.Application.CQRS.Mapping.AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
-    config.AddProfile(new Myaudio.Application.CQRS.Mapping.AssemblyMappingProfile(typeof(IContext).Assembly));
+    config.AddProfile(new Myaudio.Application.Mapping.AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
+    config.AddProfile(new Myaudio.Application.Mapping.AssemblyMappingProfile(typeof(IContext).Assembly));
 });
 
 builder.Services.AddHttpClient();
@@ -37,8 +35,8 @@ builder.Services.AddControllers();
 builder.Services.AddApplication();
 builder.Services.AddPersistance(configuration);
 builder.Services.AddScoped<IMyaudiosRepository, MyaudiosRepository>();
-builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.IVkApiService, VkApiService>();
-builder.Services.AddScoped<Myaudio.Application.CQRS.Interface.ILooadin, Myaudio.Application.CQRS.Command.GetMyaudio.LoadingMp3>();
+builder.Services.AddScoped<IVkApiService, VkApiService>();
+builder.Services.AddScoped<Myaudio.Application.Interface.ILooadin, Myaudio.Application.CQRS.Query.GetMyaudioDowload.LoadingMp3>();
 
 //builder.Services.UserService
 builder.Services.AddUserService();

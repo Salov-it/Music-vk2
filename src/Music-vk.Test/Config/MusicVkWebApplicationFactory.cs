@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
-using Myaudio.Application.CQRS.Interface;
+using Myaudio.Application.Interface;
 using Persistance.Base;
 
 namespace Music_vk.Test.Config

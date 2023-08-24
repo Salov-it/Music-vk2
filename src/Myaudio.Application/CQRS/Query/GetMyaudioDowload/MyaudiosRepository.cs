@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Myaudio.Application.CQRS.Interface;
+using Myaudio.Application.Interface;
 using Myaudio.Domain;
 
-namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
+namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
 {
     public class MyaudiosRepository : IMyaudiosRepository
     {

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Myaudio.Application.CQRS.Interface
+namespace Myaudio.Application.Interface
 {
     public interface IMapWith<T>
     {

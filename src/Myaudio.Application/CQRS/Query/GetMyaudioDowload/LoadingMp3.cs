@@ -1,26 +1,31 @@
-﻿using AudioSearchService.Application.Interface;
-using AudioSearchService.Domain;
-using Myaudio.Domain;
+﻿using Myaudio.Application.Interface;
 using System.Diagnostics;
 
-namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
+namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
 {
     public class LoadingMp3 : ILooadin
     {
-
         string param1 = "-y" + " " + "-i";
         string param2 = "-c:a copy";
         string param3 = ".mp3";
         string param4 = @"./mp3/";
         char max = '"';
 
-        GetAudioSearchHandler getAudioSearchHandler = new GetAudioSearchHandler();
-        public async void LooadingMp3(List<AudioSearc> Audios)
+        private readonly IContext _context;
+        public LoadingMp3(IContext context)
         {
-            for (int i = 0; i < Audios.Count; i++)
+            _context = context;
+        }
+        public void LooadingMp3()
+        {
+
+            var myaudios = _context.Myaudio.ToList();
+
+            for (int i = 0; i < myaudios.Count; i++)
             {
-                var audioUril = Audios[i].Urilvk;
-                var audioName = Audios[i].Name;
+
+                var audioUril = myaudios[i].Urilvk;
+                var audioName = myaudios[i].Name;
 
                 string text = param1 + " " + audioUril + " " + param2 + " " + param4 + max + audioName + max + param3;
                 string text3 = string.Join(" ", text);
@@ -31,7 +36,7 @@ namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
                 process.StartInfo.Arguments = text3;
                 process.Start();
             }
-        }
 
+        }
     }
 }

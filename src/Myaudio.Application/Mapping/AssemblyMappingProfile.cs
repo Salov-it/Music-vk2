@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Myaudio.Application.CQRS.Interface;
+using Myaudio.Application.Interface;
 using System.Reflection;
 
-namespace Myaudio.Application.CQRS.Mapping
+namespace Myaudio.Application.Mapping
 {
     public class AssemblyMappingProfile : Profile
     {

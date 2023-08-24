@@ -1,12 +1,11 @@
 ﻿using MediatR;
-using Myaudio.Application.CQRS.Command.GetMyaudio;
-using Myaudio.Application.CQRS.Interface;
+using Myaudio.Application.Interface;
 using Myaudio.Domain;
 
 
-namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
+namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
 {
-    public class GetMyaudiosHandler : IRequestHandler<GetAudioCommand,List<Myaudios>>
+    public class GetMyaudiosHandler : IRequestHandler<GetAudioCommand, List<Myaudios>>
     {
         private readonly IMyaudiosRepository _repository;
         private readonly IVkApiService _vkApiService;
@@ -17,7 +16,7 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
 
 
 
-        public GetMyaudiosHandler(IMyaudiosRepository repository, IVkApiService vkApiService,ILooadin looadin, IContext context)
+        public GetMyaudiosHandler(IMyaudiosRepository repository, IVkApiService vkApiService, ILooadin looadin, IContext context)
         {
             _repository = repository;
             _vkApiService = vkApiService;
@@ -26,7 +25,7 @@ namespace Myaudio.Application.CQRS.Command.GetMyaudioDowload
         }
         public async Task<List<Myaudios>> Handle(GetAudioCommand request, CancellationToken cancellationToken)
         {
-            
+
             Delet();
             await ClearDatabaseAsync();
 

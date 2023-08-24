@@ -1,5 +1,4 @@
-﻿using AudioSearchService.Application.CQRS.Command;
-using AudioSearchService.Application.CQRS.Command.GetAudioSearch;
+﻿using AudioSearchService.Application.CQRS.Command.PostAudioSearch;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,7 +19,7 @@ namespace WebApi.Controllers
         [HttpPost("AudioSearch")]
         public async Task<IActionResult> AudioSearch([FromBody] JsonContent jsonContent)
         {
-             var content = new GetAudioSearchCommand
+             var content = new PostAudioSearchCommand
              {
                 AudioSearch = jsonContent.AudioSearch,
                 Count = jsonContent.CountAudio

@@ -3,9 +3,9 @@ using AudioSearchService.Domain;
 using MediatR;
 using UserService.Application.Interface;
 
-namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
+namespace AudioSearchService.Application.CQRS.Command.PostAudioSearch
 {
-    public class GetAudioSearchHandler : IRequestHandler<GetAudioSearchCommand, List<AudioSearc>>
+    public class PostAudioSearchHandler : IRequestHandler<PostAudioSearchCommand, List<AudioSearc>>
     {
         private readonly IAudioSearchContext _audioSearchContext;
         private readonly IAudioSearchRepository _audioSearchRepository;
@@ -16,11 +16,11 @@ namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
         public List<AudioSearc> Audios = new List<AudioSearc>();
         public List<AudioSearc> Audios2 { get; set; }
 
-        public GetAudioSearchHandler()
+        public PostAudioSearchHandler()
         {
         }
 
-        public GetAudioSearchHandler(IAudioSearchContext audioSearchContext, IAudioSearchRepository audioSearchRepository,
+        public PostAudioSearchHandler(IAudioSearchContext audioSearchContext, IAudioSearchRepository audioSearchRepository,
                IAudioSearch audioSearch, IAccessToken accessToken, ILooadin looadin)
         {
             _audioSearchContext = audioSearchContext;
@@ -30,7 +30,7 @@ namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
             _looadin = looadin;
         }
 
-        public async Task<List<AudioSearc>> Handle(GetAudioSearchCommand request, CancellationToken cancellationToken)
+        public async Task<List<AudioSearc>> Handle(PostAudioSearchCommand request, CancellationToken cancellationToken)
         {
 
             Delete();

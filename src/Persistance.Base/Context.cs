@@ -3,7 +3,7 @@ using AudioPopularService.Domain;
 using AudioSearchService.Application.Interface;
 using AudioSearchService.Domain;
 using Microsoft.EntityFrameworkCore;
-using Myaudio.Application.CQRS.Interface;
+using Myaudio.Application.Interface;
 using Myaudio.Domain;
 using UserService.Application.Interface;
 

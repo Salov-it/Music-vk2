@@ -2,7 +2,7 @@
 using AudioSearchService.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
+namespace AudioSearchService.Application.CQRS.Command.PostAudioSearch
 {
     public class AuduioSearchRepository : IAudioSearchRepository
     {
