@@ -18,7 +18,7 @@ namespace Music_vk.Test.MyaudioController
         [Fact]
         public async Task GetMyAudio()
         {
-            await Task.Delay(3000);
+           
             var httpResponse = await _client.GetAsync(requestUri: "api/Myaudio/GetAudo?Count=1");
 
             httpResponse.EnsureSuccessStatusCode();

@@ -24,7 +24,7 @@ namespace Music_vk.Test.AudioSearchController
         [Fact]
         public async Task GetAudioSearch()
         {
-            await Task.Delay(3000);
+            
             JsonContent content = new JsonContent
             {
                 AudioSearch = "Гуф",

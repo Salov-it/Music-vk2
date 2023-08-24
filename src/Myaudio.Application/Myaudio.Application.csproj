@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CQRS\Querries\**" />
+    <EmbeddedResource Remove="CQRS\Querries\**" />
+    <None Remove="CQRS\Querries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.18" />
@@ -17,10 +23,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Myaudio.Domain\Myaudio.Domain.csproj" />
     <ProjectReference Include="..\UserService.Application\UserService.Application.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="CQRS\Querries\" />
   </ItemGroup>
 
 </Project>

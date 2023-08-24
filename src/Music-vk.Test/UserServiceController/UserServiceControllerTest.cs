@@ -12,7 +12,6 @@ using Xunit.Priority;
 namespace Music_vk.Test.UserServiceController
 {
     [Collection("Test")]
-    [DefaultPriority(0)]
     public class UserServiceControllerTest : IClassFixture<MusicVkWebApplicationFactory<Program>>
     {
         private readonly HttpClient _client;
@@ -25,6 +24,7 @@ namespace Music_vk.Test.UserServiceController
         [Fact]
         public async Task PostUserAuthorization()
         {
+            
             JsonUser jsonUser = new JsonUser
             {
                 Login = "89244452428",

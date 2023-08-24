@@ -50,9 +50,10 @@ namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
 
             await _audioPopulaRepository.SaveChangesAsync();
             _looadin.LooadingMp3(Audios);
+          
             return Audios;
-
         }
+
 
         public async void Delete()
         {
