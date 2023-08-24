@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Music_vk.Test.Config;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ using Xunit.Priority;
 
 namespace Music_vk.Test.AudioSearchController
 {
-    [Collection("Test")]
+    
+    [Trait("Category", "Integration")]
     public class AudioSearchControllerTest : IClassFixture<MusicVkWebApplicationFactory<Program>>
     {
         private readonly HttpClient _client;
@@ -21,7 +23,7 @@ namespace Music_vk.Test.AudioSearchController
             _client = factory.CreateClient();
         }
 
-        [Fact]
+        [Fact(DisplayName = "Test_3")]
         public async Task GetAudioSearch()
         {
             

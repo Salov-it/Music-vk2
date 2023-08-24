@@ -1,10 +1,12 @@
 ﻿using System.Net;
+using Music_vk.Test.Config;
 using Xunit;
 using Xunit.Priority;
 
 namespace Music_vk.Test.AudioPopularController
 {
-    [Collection("Test")]
+    
+    [Trait("Category", "Integration")]
     public class AudioPopularControllerTest : IClassFixture<MusicVkWebApplicationFactory<Program>>
     {
         private readonly HttpClient _client;
@@ -14,7 +16,7 @@ namespace Music_vk.Test.AudioPopularController
             _client = factory.CreateClient();
         }
 
-        [Fact]
+        [Fact(DisplayName = "Test_2")]
         public async Task GetAudioPopular()
         {
             

@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Myaudio.Application.CQRS.Interface;
 using Persistance.Base;
 
-namespace Music_vk.Test
+namespace Music_vk.Test.Config
 {
     public class MusicVkWebApplicationFactory<TStartup> : WebApplicationFactory<Program>
     {
@@ -21,7 +21,7 @@ namespace Music_vk.Test
                 {
                     options.UseSqlite("Data Source=MusicVkBasse.db");
                 });
-           
+
             });
         }
     }

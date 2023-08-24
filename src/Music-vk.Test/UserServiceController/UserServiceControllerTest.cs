@@ -8,10 +8,12 @@ using Newtonsoft.Json;
 using System;
 using System.Net.Http.Json;
 using Xunit.Priority;
+using Music_vk.Test.Config;
 
 namespace Music_vk.Test.UserServiceController
 {
-    [Collection("Test")]
+    
+    [Trait("Category", "Integration")]
     public class UserServiceControllerTest : IClassFixture<MusicVkWebApplicationFactory<Program>>
     {
         private readonly HttpClient _client;
@@ -21,7 +23,7 @@ namespace Music_vk.Test.UserServiceController
             _client = factory.CreateClient();
         }
 
-        [Fact]
+        [Fact(DisplayName = "Test_1")]
         public async Task PostUserAuthorization()
         {
             

@@ -1,10 +1,12 @@
 ﻿using System.Net;
+using Music_vk.Test.Config;
 using Xunit;
 using Xunit.Priority;
 
 namespace Music_vk.Test.MyaudioController
 {
-    [Collection("Test")]
+    
+    [Trait("Category", "Integration")]
     public class MyaudioControlleTest : IClassFixture<MusicVkWebApplicationFactory<Program>>
     {
        
@@ -15,7 +17,7 @@ namespace Music_vk.Test.MyaudioController
             _client = factory.CreateClient();
         }
 
-        [Fact]
+        [Fact(DisplayName = "Test_4")]
         public async Task GetMyAudio()
         {
            
