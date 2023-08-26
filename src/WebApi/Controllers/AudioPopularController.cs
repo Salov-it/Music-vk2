@@ -1,5 +1,6 @@
 ﻿using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
 using AudioPopularService.Application.CQRS.Command.PostDeletAudio;
+using AudioPopularService.Application.CQRS.Command.PostDownloadAudio;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,6 +17,18 @@ namespace WebApi.Controllers
         public AudioPopularController(IMediator mediator)
         {
             this.mediator = mediator;
+        }
+
+        [HttpPost("DownloadAudio")]
+        public async Task<IActionResult> DownloadAudio([FromQuery] string Urilvk, [FromQuery] string Name)
+        {
+            var content = new PostDownloadAudioCommand
+            {
+                Urilvk = Urilvk,
+                Name = Name,
+            };
+            var answer = await mediator.Send(content);
+            return Ok(answer);
         }
 
         [HttpPost("DeletAudio")]
@@ -41,4 +54,6 @@ namespace WebApi.Controllers
         }
 
     }
+
+    
 }

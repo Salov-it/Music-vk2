@@ -4,6 +4,6 @@ namespace AudioPopularService.Application.Interface
 {
     public interface ILooadin
     {
-        void LooadingMp3(List<AudioPopul> Audios);
+        void LooadingMp3(AudioPopul Audios);
     }
 }
