@@ -1,4 +1,5 @@
 ﻿using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
+using AudioPopularService.Application.CQRS.Command.PostDeletAudio;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,17 @@ namespace WebApi.Controllers
         public AudioPopularController(IMediator mediator)
         {
             this.mediator = mediator;
+        }
+
+        [HttpPost("DeletAudio")]
+        public async Task<IActionResult> DeletAudio()
+        {
+            var content = new PostDeletAudioCommanda
+            {
+
+            };
+            var answer = await mediator.Send(content);
+            return Ok(answer);
         }
 
         [HttpGet("AudioPopular")]

@@ -23,14 +23,16 @@ namespace UserService.Application.CQRS.Command.PostAuthorization
             return await _userContext.user.ToListAsync();
         }
 
-        public void Remove(User user)
+        public void Remove(User users)
         {
-            _userContext.user.Remove(user);
+            _userContext.user.Remove(users);
         }
 
         public async Task SaveChangesAsync()
         {
-           await _userContext.SaveChangesAsync(cancellationToken);
+            await _userContext.SaveChangesAsync(cancellationToken);
         }
+
     }
 }
+

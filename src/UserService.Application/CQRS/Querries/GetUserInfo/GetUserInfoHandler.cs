@@ -15,13 +15,14 @@ namespace UserService.Application.CQRS.Querries.GetUserInfo
         public async Task<UserInfoDto> Handle(GetUserInfoCommand request, CancellationToken cancellationToken)
         {
             var UserinfoContent = _userContext.user.ToList();
-
+            
             var userInfo = new UserInfoDto
             {
-                Name = UserinfoContent[0].Nick,
-                Avatar = UserinfoContent[0].Avatar
+               Name = UserinfoContent[0].Nick,
+               Avatar = UserinfoContent[0].Avatar
             };
-            return userInfo;
+            return userInfo ;
+         
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {}
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj",
         "projectName": "AudioSearchService.Application",
-        "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\obj\\",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
-                "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj"
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj"
               },
-              "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
-                "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
               }
             }
           }
@@ -92,17 +92,17 @@
         }
       }
     },
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj",
         "projectName": "AudioSearchService.Domain",
-        "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,17 +147,17 @@
         }
       }
     },
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
         "projectName": "Myaudio.Application",
-        "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\obj\\",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -171,11 +171,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
-                "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
               },
-              "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj": {
-                "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj"
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj"
               }
             }
           }
@@ -231,17 +231,17 @@
         }
       }
     },
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
         "projectName": "Myaudio.Domain",
-        "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -286,17 +286,17 @@
         }
       }
     },
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj": {
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj",
         "projectName": "UserService.Application",
-        "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Application\\obj\\",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\UserService.Application.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -310,8 +310,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {
-                "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj"
+              "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj"
               }
             }
           }
@@ -367,17 +367,17 @@
         }
       }
     },
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {
+    "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
         "projectName": "UserService.Domain",
-        "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\UserService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

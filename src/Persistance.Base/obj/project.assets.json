@@ -2440,19 +2440,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\salov\\.nuget\\packages\\": {}
+    "C:\\Users\\Администратор\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
+      "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
       "projectName": "Persistance.Base",
-      "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
-      "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Persistance.Base\\obj\\",
+      "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\Persistance.Base.csproj",
+      "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Persistance.Base\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2466,23 +2466,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj": {
-              "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj"
+            "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Application\\AudioPopularService.Application.csproj"
             },
-            "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj": {
-              "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj"
+            "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj"
             },
-            "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
-              "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj"
+            "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Application\\AudioSearchService.Application.csproj"
             },
-            "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
-              "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj"
+            "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\AudioSearchService.Domain\\AudioSearchService.Domain.csproj"
             },
-            "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
-              "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
+            "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Application\\Myaudio.Application.csproj"
             },
-            "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
-              "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
+            "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+              "projectPath": "C:\\Users\\Администратор\\Desktop\\Salov\\Githab\\Music-vk2\\src\\Myaudio.Domain\\Myaudio.Domain.csproj"
             }
           }
         }

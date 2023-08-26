@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Web.Http;
 using UserService.Application.CQRS.Command.PostAuthorization;
+using UserService.Application.CQRS.Command.PostDeletUser;
 using UserService.Application.CQRS.Querries.GetUserInfo;
 using FromBodyAttribute = Microsoft.AspNetCore.Mvc.FromBodyAttribute;
 using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
@@ -28,6 +29,17 @@ namespace WebApi.Controllers
             {
                 Login = jsonUser.Login,
                 Password = jsonUser.Password
+            };
+            var answer = await mediator.Send(content);
+            return Ok(answer);
+        }
+
+        [HttpPost("DeletUser")]
+        public async Task<IActionResult> DeletUser()
+        {
+            var content = new PostDeletUserCommanda
+            {
+               
             };
             var answer = await mediator.Send(content);
             return Ok(answer);
