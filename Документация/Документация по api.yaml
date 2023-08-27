@@ -1,0 +1,86 @@
+swagger: '2.0'
+info:
+  title: Music-vk Web Api
+  version: '0.0.1'
+tags:
+  - name: AudioPopular
+    description: Популярная музыка
+  - name: AudioSearch
+    description: Поиск музыки
+  - name: Myaudio
+    description: Моя музыка
+  - name: UserService
+    description: Авторизация
+paths:
+  /api/AudioPopular/DownloadAudio:
+    post:
+      tags:
+        - AudioPopular
+      summary: Загрузить аудио
+      responses:
+        '200':
+          description: Successful response
+  /api/AudioPopular/DeletAudio:
+    post:
+      tags:
+        - AudioPopular
+      summary: Удалить все аудио файлы
+      responses:
+        '200':
+          description: Successful response
+  /api/AudioPopular/AudioPopular:
+    get:
+      tags:
+        - AudioPopular
+      summary: Получить аудио файлы
+      responses:
+        '200':
+          description: Successful response
+  /api/AudioSearch/AudioSearch:
+    post:
+      tags:
+        - AudioSearch
+      summary: Поиск аудио
+      responses:
+        '200':
+          description: Successful response
+  /api/Myaudio/DeletAudio:
+    post:
+      tags:
+        - Myaudio
+      summary: Удалить все аудио файлы
+      responses:
+        '200':
+          description: Successful response
+  /api/Myaudio/GetAudo:
+    get:
+      tags:
+        - Myaudio
+      summary: Получить мои аудио
+      responses:
+        '200':
+          description: Successful response
+  /api/UserService/Authorization:
+    post:
+      tags:
+        - UserService
+      summary: Авторизация пользователя
+      responses:
+        '200':
+          description: Successful response
+  /api/UserService/DeletUser:
+    post:
+      tags:
+        - UserService
+      summary: Удалить пользователя
+      responses:
+        '200':
+          description: Successful response
+  /api/UserService/Userinfo:
+    get:
+      tags:
+        - UserService
+      summary: Информация о пользователе
+      responses:
+        '200':
+          description: Successful response
