@@ -1,8 +1,8 @@
-﻿using AudioPopularService.Application.Interface;
-using AudioPopularService.Domain;
+﻿using Myaudio.Application.Interface;
+using Myaudio.Domain;
 using System.Diagnostics;
 
-namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
+namespace Myaudio.Application.CQRS.Command.PostDownloadAudio
 {
     public class LoadingMp3 : ILooadin
     {
@@ -12,7 +12,7 @@ namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
         string param4 = @"./mp3/";
         char max = '"';
 
-        public void LooadingMp3(DownloadAudioModel downloadAudio)
+        public void LooadingMp3(DownloadAudioModels downloadAudio)
         {
            
            string text = param1 + " " + downloadAudio.Urilvk + " " + param2 + " " + param4 + max + downloadAudio.Name + max + param3;

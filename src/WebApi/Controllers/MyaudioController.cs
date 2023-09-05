@@ -1,7 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Myaudio.Application.CQRS.Command.PostDeletAudio;
+using Myaudio.Application.CQRS.Command.PostDownloadAudio;
 using Myaudio.Application.CQRS.Query.GetMyaudioDowload;
+using Myaudio.Domain;
 
 namespace Myaudio.WebApi.Controllers
 {
@@ -14,6 +16,17 @@ namespace Myaudio.WebApi.Controllers
         public MyaudioController(IMediator mediator)
         {
             this.mediator = mediator;
+        }
+
+        [HttpPost("DownloadAudio")]
+        public async Task<IActionResult> DownloadAudio([FromBody] DownloadAudioModels download)
+        {
+            var content = new PostDownloadAudioCommand
+            {
+                downloadAudio = download
+            };
+            var answer = await mediator.Send(content);
+            return Ok(answer);
         }
 
         [HttpPost("DeletAudio")]
@@ -37,6 +50,7 @@ namespace Myaudio.WebApi.Controllers
             var answer = await mediator.Send(content);
             return Ok(answer);
         }
+
 
     }
 }

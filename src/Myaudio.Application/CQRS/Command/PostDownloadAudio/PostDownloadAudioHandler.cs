@@ -1,7 +1,7 @@
-﻿using AudioPopularService.Application.Interface;
-using MediatR;
+﻿using MediatR;
+using Myaudio.Application.Interface;
 
-namespace AudioPopularService.Application.CQRS.Command.PostDownloadAudio
+namespace Myaudio.Application.CQRS.Command.PostDownloadAudio
 {
     public class PostDownloadAudioHandler : IRequestHandler<PostDownloadAudioCommand, string>
     {

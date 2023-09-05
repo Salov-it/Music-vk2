@@ -46,8 +46,6 @@ namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
             }
             await _repository.SaveChangesAsync();
 
-            _looadin.LooadingMp3();
-
             return MyAudio;
         }
 

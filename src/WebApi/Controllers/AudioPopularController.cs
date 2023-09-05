@@ -1,6 +1,7 @@
 ﻿using AudioPopularService.Application.CQRS.Command.GetAudioPopular;
 using AudioPopularService.Application.CQRS.Command.PostDeletAudio;
 using AudioPopularService.Application.CQRS.Command.PostDownloadAudio;
+using AudioPopularService.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,12 +21,11 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("DownloadAudio")]
-        public async Task<IActionResult> DownloadAudio([FromQuery] string Urilvk, [FromQuery] string Name)
+        public async Task<IActionResult> DownloadAudio([FromQuery] DownloadAudioModel audioModel)
         {
             var content = new PostDownloadAudioCommand
             {
-                Urilvk = Urilvk,
-                Name = Name,
+              downloadAudio = audioModel
             };
             var answer = await mediator.Send(content);
             return Ok(answer);

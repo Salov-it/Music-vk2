@@ -30,7 +30,7 @@ builder.Services.AddApplication();
 builder.Services.AddPersistance(configuration);
 builder.Services.AddScoped<IMyaudiosRepository, MyaudiosRepository>();
 builder.Services.AddScoped<IVkApiService, VkApiService>();
-builder.Services.AddScoped<Myaudio.Application.Interface.ILooadin, Myaudio.Application.CQRS.Query.GetMyaudioDowload.LoadingMp3>();
+
 
 //builder.Services.UserService
 builder.Services.AddUserService();
