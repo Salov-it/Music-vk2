@@ -30,7 +30,7 @@ namespace Myaudio.WebApi.Controllers
         }
 
         [HttpPost("DeletAudio")]
-        public async Task<IActionResult> DeletAudio()
+        public async Task<IActionResult> DeletAudio([FromBody] DeletAudio deletAudio )
         {
             var content = new PostDeletAudioCommanda
             {
@@ -41,11 +41,11 @@ namespace Myaudio.WebApi.Controllers
         }
 
         [HttpGet("GetAudo")]
-        public async Task<IActionResult> GetAudio([FromQuery] int Count)
+        public async Task<IActionResult> GetAudio([FromBody] MyAudioModel audioModel)
         {
             var content = new GetAudioCommand
             {
-                CountAudio = Count
+                audioModel = audioModel
             };
             var answer = await mediator.Send(content);
             return Ok(answer);

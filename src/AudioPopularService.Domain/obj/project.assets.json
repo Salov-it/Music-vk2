@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\salov\\.nuget\\packages\\": {}
+    "C:\\Users\\Администратор.VDSWIN2K16\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj",
       "projectName": "AudioPopularService.Domain",
-      "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj",
-      "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\AudioPopularService.Domain.csproj",
+      "packagesPath": "C:\\Users\\Администратор.VDSWIN2K16\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\AudioPopularService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Администратор.VDSWIN2K16\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

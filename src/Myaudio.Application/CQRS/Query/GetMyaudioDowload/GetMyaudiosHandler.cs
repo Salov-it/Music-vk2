@@ -29,7 +29,7 @@ namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
             Delet();
             await ClearDatabaseAsync();
 
-            var audios = await _vkApiService.GetAudiosAsync(request.CountAudio);
+            var audios = await _vkApiService.GetAudiosAsync(request.audioModel.Count);
 
             foreach (var audio in audios)
             {

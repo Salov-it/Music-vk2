@@ -30,7 +30,8 @@ namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
         public async Task<List<AudioPopul>> Handle(GetAudioPopulaCommand request, CancellationToken cancellationToken)
         {
              Delete();
-            var audios = await _audioPopular.AudioPopular(request.Count, _accessToken.AccessToken());
+            var audios = await _audioPopular.AudioPopular(request.audioPopulModel.Count,
+                _accessToken.AccessToken());
             var Audios2 = new AudioPopul();
 
             foreach (var audio in audios)

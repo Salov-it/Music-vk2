@@ -25,7 +25,7 @@ namespace WebApi.Controllers
         {
             var content = new PostDownloadAudioCommand
             {
-              downloadAudio = audioModel
+                downloadAudio = audioModel
             };
             var answer = await mediator.Send(content);
             return Ok(answer);
@@ -43,11 +43,11 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("AudioPopular")]
-        public async Task<IActionResult> AudioPopular([FromQuery] uint Count)
+        public async Task<IActionResult> AudioPopular([FromBody] AudioPopulModel audioPopulModel)
         {
             var content = new GetAudioPopulaCommand
             {
-                Count = Count
+                audioPopulModel = audioPopulModel
             };
             var answer = await mediator.Send(content);
             return Ok(answer);

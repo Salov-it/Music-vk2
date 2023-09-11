@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {}
+    "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {
+    "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
         "projectName": "UserService.Domain",
-        "projectPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salov\\Desktop\\Программы\\Githab\\Music-vk2\\src\\UserService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\UserService.Domain\\UserService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Администратор.VDSWIN2K16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Администратор.VDSWIN2K16\\Desktop\\Работа\\Githab\\Music-vk2\\src\\UserService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Администратор.VDSWIN2K16\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
