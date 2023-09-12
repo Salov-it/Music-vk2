@@ -1,17 +1,18 @@
 ﻿using AudioPopularService.Application.Interface;
 using AudioPopularService.Domain;
 using MediatR;
+using System.Text.Json;
 using UserService.Application.Interface;
 
 namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
 {
-    public class GetAudioPopulaHandler : IRequestHandler<GetAudioPopulaCommand, List<AudioPopul>>
+    public class GetAudioPopulaHandler : IRequestHandler<GetAudioPopulaCommand,string>
     {
         private readonly IAudioPopular _audioPopular;
         private readonly IAccessToken _accessToken;
         private readonly IAudioPopulaRepository _audioPopulaRepository;
         private readonly ILooadin _looadin;
-
+        
         public List<AudioPopul> Audios = new List<AudioPopul>();
 
         public GetAudioPopulaHandler()
@@ -27,7 +28,7 @@ namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
             _looadin = looadin;
             _audioPopulaRepository = audioPopulaRepository;
         }  
-        public async Task<List<AudioPopul>> Handle(GetAudioPopulaCommand request, CancellationToken cancellationToken)
+        public async Task<string> Handle(GetAudioPopulaCommand request, CancellationToken cancellationToken)
         {
              Delete();
             var audios = await _audioPopular.AudioPopular(request.audioPopulModel.Count,
@@ -44,18 +45,15 @@ namespace AudioPopularService.Application.CQRS.Command.GetAudioPopular
                     Urilvk = audio.Url.ToString(),
                     File = $"./mp3/{audio.Title}.mp3"
                 };
-
                 Audios.Add(Audios2);
                 await _audioPopulaRepository.AddAsync(Audios2);
             }
-
             await _audioPopulaRepository.SaveChangesAsync();
-           // _looadin.LooadingMp3(Audios);
-          
-            return Audios;
+            string ContentAudio = JsonSerializer.Serialize(Audios);
+            return ContentAudio;
         }
 
-
+        
         public async void Delete()
         {
             var Files = await _audioPopulaRepository.GetAllAsync();

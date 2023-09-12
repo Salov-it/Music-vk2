@@ -42,7 +42,7 @@ namespace WebApi.Controllers
             return Ok(answer);
         }
 
-        [HttpGet("AudioPopular")]
+        [HttpPost("AudioPopular")]
         public async Task<IActionResult> AudioPopular([FromBody] AudioPopulModel audioPopulModel)
         {
             var content = new GetAudioPopulaCommand

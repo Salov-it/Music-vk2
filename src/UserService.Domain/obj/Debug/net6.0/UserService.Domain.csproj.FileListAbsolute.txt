@@ -10,14 +10,3 @@ D:\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.d
 D:\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\refint\UserService.Domain.dll
 D:\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.pdb
 D:\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\ref\UserService.Domain.dll
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\bin\Debug\net6.0\UserService.Domain.deps.json
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\bin\Debug\net6.0\UserService.Domain.dll
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\bin\Debug\net6.0\UserService.Domain.pdb
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.AssemblyInfoInputs.cache
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.AssemblyInfo.cs
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.dll
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\refint\UserService.Domain.dll
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\UserService.Domain.pdb
-C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\UserService.Domain\obj\Debug\net6.0\ref\UserService.Domain.dll
