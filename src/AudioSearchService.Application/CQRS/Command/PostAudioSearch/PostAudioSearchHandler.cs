@@ -1,24 +1,19 @@
 ﻿using AudioSearchService.Application.Interface;
 using AudioSearchService.Domain;
 using MediatR;
+using System.Text.Json;
 using UserService.Application.Interface;
 
 namespace AudioSearchService.Application.CQRS.Command.PostAudioSearch
 {
-    public class PostAudioSearchHandler : IRequestHandler<PostAudioSearchCommand, List<AudioSearc>>
+    public class PostAudioSearchHandler : IRequestHandler<PostAudioSearchCommand,string>
     {
         private readonly IAudioSearchContext _audioSearchContext;
         private readonly IAudioSearchRepository _audioSearchRepository;
         private readonly IAudioSearch _audioSearch;
         private readonly IAccessToken _accessToken;
         private readonly ILooadin _looadin;
-
         public List<AudioSearc> Audios = new List<AudioSearc>();
-        public List<AudioSearc> Audios2 { get; set; }
-
-        public PostAudioSearchHandler()
-        {
-        }
 
         public PostAudioSearchHandler(IAudioSearchContext audioSearchContext, IAudioSearchRepository audioSearchRepository,
                IAudioSearch audioSearch, IAccessToken accessToken, ILooadin looadin)
@@ -30,7 +25,7 @@ namespace AudioSearchService.Application.CQRS.Command.PostAudioSearch
             _looadin = looadin;
         }
 
-        public async Task<List<AudioSearc>> Handle(PostAudioSearchCommand request, CancellationToken cancellationToken)
+        public async Task<string> Handle(PostAudioSearchCommand request, CancellationToken cancellationToken)
         {
 
             Delete();
@@ -50,14 +45,14 @@ namespace AudioSearchService.Application.CQRS.Command.PostAudioSearch
                 Audios.Add(Audios1);
                 await _audioSearchRepository.AddAsync(Audios1);
             }
-
             await _audioSearchRepository.SaveChangesAsync();
 
             new Thread(delegate () {
                 _looadin.LooadingMp3(Audios);
             }).Start();
-            
-            return Audios2 = Audios;
+
+            string ContentAudio = JsonSerializer.Serialize(Audios);
+            return ContentAudio;
 
         }
 
