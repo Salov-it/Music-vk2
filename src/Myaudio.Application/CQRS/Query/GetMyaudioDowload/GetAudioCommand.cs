@@ -3,7 +3,7 @@ using Myaudio.Domain;
 
 namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
 {
-    public class GetAudioCommand : IRequest<List<Myaudios>>
+    public class GetAudioCommand : IRequest<string>
     {
         public MyAudioModel audioModel { get; set; }
     }

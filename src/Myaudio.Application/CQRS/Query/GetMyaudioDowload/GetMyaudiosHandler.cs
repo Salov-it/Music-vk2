@@ -1,11 +1,11 @@
 ﻿using MediatR;
 using Myaudio.Application.Interface;
 using Myaudio.Domain;
-
+using System.Text.Json;
 
 namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
 {
-    public class GetMyaudiosHandler : IRequestHandler<GetAudioCommand, List<Myaudios>>
+    public class GetMyaudiosHandler : IRequestHandler<GetAudioCommand,string>
     {
         private readonly IMyaudiosRepository _repository;
         private readonly IVkApiService _vkApiService;
@@ -23,7 +23,7 @@ namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
             _looadin = looadin;
             _context = context;
         }
-        public async Task<List<Myaudios>> Handle(GetAudioCommand request, CancellationToken cancellationToken)
+        public async Task<string> Handle(GetAudioCommand request, CancellationToken cancellationToken)
         {
 
             Delet();
@@ -40,13 +40,12 @@ namespace Myaudio.Application.CQRS.Query.GetMyaudioDowload
                     Urilvk = audio.Url.ToString(),
                     File = $"./mp3/{audio.Title}.mp3"
                 };
-
                 await _repository.AddAsync(myaudio);
                 MyAudio.Add(myaudio);
             }
             await _repository.SaveChangesAsync();
-
-            return MyAudio;
+            string ContentAudio = JsonSerializer.Serialize(MyAudio);
+            return ContentAudio;
         }
 
         private async Task ClearDatabaseAsync()

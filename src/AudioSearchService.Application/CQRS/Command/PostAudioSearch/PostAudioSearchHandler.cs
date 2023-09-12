@@ -53,7 +53,6 @@ namespace AudioSearchService.Application.CQRS.Command.PostAudioSearch
 
             string ContentAudio = JsonSerializer.Serialize(Audios);
             return ContentAudio;
-
         }
 
         public async void Delete()
