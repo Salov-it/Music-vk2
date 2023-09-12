@@ -10,3 +10,14 @@ D:\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.dll
 D:\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\refint\Myaudio.Domain.dll
 D:\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.pdb
 D:\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\ref\Myaudio.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\bin\Debug\net6.0\Myaudio.Domain.deps.json
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\bin\Debug\net6.0\Myaudio.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\bin\Debug\net6.0\Myaudio.Domain.pdb
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.AssemblyInfoInputs.cache
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.AssemblyInfo.cs
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\refint\Myaudio.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.pdb
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\Myaudio.Domain\obj\Debug\net6.0\ref\Myaudio.Domain.dll

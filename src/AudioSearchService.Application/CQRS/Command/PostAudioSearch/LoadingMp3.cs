@@ -15,7 +15,7 @@ namespace AudioSearchService.Application.CQRS.Command.GetAudioSearch
         string param4 = @"./mp3/";
         char max = '"';
 
-        PostAudioSearchHandler postAudioSearchHandler = new PostAudioSearchHandler();
+       
         public async void LooadingMp3(List<AudioSearc> Audios)
         {
             for (int i = 0; i < Audios.Count; i++)

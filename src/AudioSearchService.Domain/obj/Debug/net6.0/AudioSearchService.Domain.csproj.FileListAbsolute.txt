@@ -10,3 +10,14 @@ D:\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchSe
 D:\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\refint\AudioSearchService.Domain.dll
 D:\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchService.Domain.pdb
 D:\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\ref\AudioSearchService.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\bin\Debug\net6.0\AudioSearchService.Domain.deps.json
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\bin\Debug\net6.0\AudioSearchService.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\bin\Debug\net6.0\AudioSearchService.Domain.pdb
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchService.Domain.AssemblyInfoInputs.cache
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchService.Domain.AssemblyInfo.cs
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchService.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\refint\AudioSearchService.Domain.dll
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\AudioSearchService.Domain.pdb
+C:\Users\Администратор.VDSWIN2K16\Desktop\Работа\Githab\Music-vk2\src\AudioSearchService.Domain\obj\Debug\net6.0\ref\AudioSearchService.Domain.dll
